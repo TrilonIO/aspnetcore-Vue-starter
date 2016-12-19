@@ -1,4 +1,4 @@
-# Asp.NETCore VueJS 2 Starter
+# Asp.NETCore Vue 2 Starter
 
 <p align="center">
     <img src="https://github.com/markpieszak/aspnetcore-vue-starter/blob/master/architecture.png" alt="ASP.NET Core & Vue 2.* Starter" title="ASP.NET Core & Vue 2.* Starter">
