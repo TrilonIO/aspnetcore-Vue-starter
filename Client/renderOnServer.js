@@ -9,8 +9,9 @@ const code = fs.readFileSync(filePath, 'utf8');
 const bundleRenderer = require('vue-server-renderer').createBundleRenderer(code)
 
 module.exports = function (params) {
+
     return new Promise(function (resolve, reject) {
-        console.log(params);
+        
         bundleRenderer.renderToString(params.data, (err, resultHtml) => { // params.data is the store's initial state
             if (err) {
                 reject(err.message);
@@ -30,4 +31,5 @@ module.exports = function (params) {
             });
         });
     });
+    
 };
