@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    {{ counter }}
+
+    <h1>ASP.NET Core & Vue 2.* Starter</h1>
+
+    Counter item: {{ counter }}
+
+    <h3>More to come!</h3>
+
   </div>
 </template>
 
