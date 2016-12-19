@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "ASP.NET Core VueJS Starter - Built by Mark Pieszak";
+}
+
+<div id="app" asp-prerender-module="ClientApp/renderOnServer" asp-prerender-data="Model"></div>
+
+@section scripts {
+    <script src="~/dist/client.js" asp-append-version="true"></script>
+}
