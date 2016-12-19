@@ -1,6 +1,8 @@
 # Asp.NETCore VueJS 2 Starter
 
-> Detailed README to come...
+<p align="center">
+    <img src="https://github.com/markpieszak/aspnetcore-vue-starter/blob/master/architecture.png" alt="ASP.NET Core Vue 2.* Starter" title="ASP.NET Core Vue 2.* Starter">
+</p>
 
 ### What is this repo?
 
@@ -19,5 +21,5 @@
 
 - Get Chrome DevTools for Vue [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
-More details to come...
+# More details to come... 
 
