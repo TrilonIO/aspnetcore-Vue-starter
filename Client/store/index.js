@@ -3,11 +3,11 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const states = {
+const INITIAL_STATE = {
   loggedIn : false,
   loggedInUser : {}
 };
 
 export default new Vuex.Store({
-  states
+  INITIAL_STATE
 });
