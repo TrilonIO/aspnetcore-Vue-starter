@@ -21,6 +21,7 @@
 - ASP.NET Core
 - VueJS 2.*
   - Server-side rendering
+- ...more details to come...
   
 ----
 
