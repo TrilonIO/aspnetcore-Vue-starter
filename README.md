@@ -18,12 +18,12 @@
 
 # Features
 
-- ASP.NET Core
+- **ASP.NET Core**
   - Web API
-- VueJS 2.*
+- **VueJS 2**
   - Server-side rendering
   - Vuex (State Store)
-- Webpack 2.*
+- **Webpack 2**
   - HMR (Hot Module Replacement/Reloading)
   
 - ...more details to come...
