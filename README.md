@@ -1,5 +1,7 @@
 # Asp.NETCore Vue 2 Starter
 
+> Note: The Repo is fully functional - many improvements coming soon!
+
 <p align="center">
     <img src="https://github.com/markpieszak/aspnetcore-vue-starter/blob/master/architecture.png" alt="ASP.NET Core & Vue 2.* Starter" title="ASP.NET Core & Vue 2.* Starter">
 </p>
