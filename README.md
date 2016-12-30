@@ -58,5 +58,5 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 ### License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE.md)
 
