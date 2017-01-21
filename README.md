@@ -1,6 +1,9 @@
 # Asp.NETCore Vue 2 Starter
 
-> Note: The Repo is fully functional - many improvements coming soon!
+> Note: The Repo iS functional - many improvements coming soon!
+> Still a work in progress, PRs always welcome!
+
+Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)
 
 <p align="center">
     <img src="https://github.com/markpieszak/aspnetcore-vue-starter/blob/master/architecture.png" alt="ASP.NET Core & Vue 2.* Starter" title="ASP.NET Core & Vue 2.* Starter">
