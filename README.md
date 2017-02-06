@@ -1,7 +1,7 @@
 # Asp.NETCore Vue 2 Starter
 
-> Note: The Repo iS functional - many improvements coming soon!
-> Still a work in progress, PRs always welcome!
+> Note: The Repo is functional - many improvements coming soon!
+> Still a Work in Progress, **PRs always welcome!**
 
 Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)
 
