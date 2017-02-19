@@ -3,9 +3,9 @@ var merge = require('webpack-merge')
 var baseWebpackConfig = require('./webpack.base.config')
 var webpack = require('webpack')
 
-var clientWebpackConfig = merge(baseWebpackConfig, {
+var mainWebpackConfig = merge(baseWebpackConfig, {
     entry: {
-        client: path.resolve(__dirname, './ClientApp/client.js')
+        main: path.resolve(__dirname, './ClientApp/boot.js')
     },
     output: {
         path: path.resolve(__dirname, './wwwroot/dist')
@@ -13,7 +13,7 @@ var clientWebpackConfig = merge(baseWebpackConfig, {
     devtool: '#eval-source-map'
 })
 
-module.exports = clientWebpackConfig
+module.exports = mainWebpackConfig
 
 if (process.env.NODE_ENV === 'production') {
     module.exports.devtool = '#source-map'

@@ -1,4 +1,4 @@
-var clientWebpackConfig = require('./webpack.client.config.js')
+var mainWebpackConfig = require('./webpack.main.config.js')
 var serverWebpackConfig = require('./webpack.server.config.js')
 
-module.exports = [clientWebpackConfig, serverWebpackConfig]
+module.exports = [mainWebpackConfig, serverWebpackConfig]
