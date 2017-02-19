@@ -5,10 +5,10 @@ var webpack = require('webpack')
 
 var clientWebpackConfig = merge(baseWebpackConfig, {
     entry: {
-        client: path.resolve(__dirname, '../Client/client.js')
+        client: path.resolve(__dirname, './ClientApp/client.js')
     },
     output: {
-        path: path.resolve(__dirname, '../wwwroot/dist')
+        path: path.resolve(__dirname, './wwwroot/dist')
     },
     devtool: '#eval-source-map'
 })
@@ -17,7 +17,7 @@ module.exports = clientWebpackConfig
 
 if (process.env.NODE_ENV === 'production') {
     module.exports.devtool = '#source-map'
-        // http://vue-loader.vuejs.org/en/workflow/production.html
+    // http://vue-loader.vuejs.org/en/workflow/production.html
     module.exports.plugins = (module.exports.plugins || []).concat([
         new webpack.DefinePlugin({
             'process.env': {

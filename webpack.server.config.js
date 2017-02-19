@@ -6,13 +6,13 @@ var serverWebpackConfig = merge(baseWebpackConfig, {
   target: 'node',
   devtool: 'inline-source-map',
   entry: {
-    server: path.resolve(__dirname, '../Client/server.js')
+    server: path.resolve(__dirname, './ClientApp/server.js')
   },
   output: {
     libraryTarget: 'commonjs2',
-    path: path.resolve(__dirname, '../wwwroot/dist')
+    path: path.resolve(__dirname, './wwwroot/dist')
   },
-  externals: Object.keys(require('../package.json').dependencies)
+  externals: Object.keys(require('./package.json').dependencies)
 })
 
 module.exports = serverWebpackConfig

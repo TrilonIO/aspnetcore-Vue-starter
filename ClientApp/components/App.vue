@@ -7,6 +7,7 @@
 
     <h3>More to come!</h3>
 
+    <a href="api/SampleData/WeatherForecasts">api sample data</a>
   </div>
 </template>
 
