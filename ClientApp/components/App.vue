@@ -38,3 +38,9 @@
 
   }
 </script>
+
+<style>
+  h1 {
+    background-color: grey;
+  }
+</style>
