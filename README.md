@@ -25,7 +25,6 @@ Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://
 - **ASP.NET Core**
   - Web API
 - **VueJS 2**
-  - Server-side rendering
   - Vuex (State Store)
 - **Webpack 2**
   - HMR (Hot Module Replacement/Reloading)
