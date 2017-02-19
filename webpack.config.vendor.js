@@ -17,7 +17,7 @@ module.exports = (env) => {
             ]
         },
         entry: {
-            vendor: ['bootstrap', 'bootstrap/dist/css/bootstrap.css', 'event-source-polyfill', 'isomorphic-fetch', 'vue', 'vuex', 'vue-resource', 'veu-router', 'style-loader', 'jquery'],
+            vendor: ['bootstrap', 'bootstrap/dist/css/bootstrap.css', 'event-source-polyfill', 'isomorphic-fetch', 'vue', 'vuex', 'vue-resource', 'vue-router', 'style-loader', 'jquery'],
         },
         output: {
             path: path.join(__dirname, 'wwwroot', 'dist'),
