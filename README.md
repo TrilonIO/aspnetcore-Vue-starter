@@ -31,6 +31,18 @@ Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://
   
 - ...more details to come...
   
+
+# Todo
+
+- **Typescript support**
+  - as it's cool
+- **Default app**
+  - bootstrap
+  - counter
+  - fetchdata
+  - navmenu
+- **Dotnet new**
+  - make available as a nuget to easily use in 'dotnet new'
 ----
 
 # Getting Started?
