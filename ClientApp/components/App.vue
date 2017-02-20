@@ -7,6 +7,7 @@
 
     <h3>More to come!</h3>
 
+    <a href="api/SampleData/WeatherForecasts">api sample data</a>
   </div>
 </template>
 
@@ -37,3 +38,9 @@
 
   }
 </script>
+
+<style>
+  h1 {
+    background-color: grey;
+  }
+</style>

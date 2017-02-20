@@ -25,13 +25,24 @@ Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://
 - **ASP.NET Core**
   - Web API
 - **VueJS 2**
-  - Server-side rendering
   - Vuex (State Store)
 - **Webpack 2**
   - HMR (Hot Module Replacement/Reloading)
   
 - ...more details to come...
   
+
+# Todo
+
+- **Typescript support**
+  - as it's cool
+- **Default app**
+  - bootstrap
+  - counter
+  - fetchdata
+  - navmenu
+- **Dotnet new**
+  - make available as a nuget to easily use in 'dotnet new'
 ----
 
 # Getting Started?

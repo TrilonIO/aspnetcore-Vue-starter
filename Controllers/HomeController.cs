@@ -1,4 +1,4 @@
-namespace AspnetcoreVue.Controllers
+namespace aspnetcore_Vue_starter.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
 
@@ -6,7 +6,7 @@ namespace AspnetcoreVue.Controllers
     {
         public IActionResult Index()
         {
-            return View(new { DataFromController = "Tada!" });
+            return View();
         }
 
         public IActionResult Error()
