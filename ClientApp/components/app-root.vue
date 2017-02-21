@@ -2,41 +2,7 @@
     <div id="app" class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
-                <nav-menu params="route: route">
-                    <div class="main-nav">
-                        <div class="navbar navbar-inverse">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                        <span class="sr-only">Toggle navigation</span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </button>
-                                <a class="navbar-brand" href="/">aspnetcore_Vue_starter</a>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav">
-                                    <li>
-                                        <a href="/" class="active">
-                                            <span class="glyphicon glyphicon-home"></span> Home
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/counter">
-                                            <span class="glyphicon glyphicon-education"></span> Counter
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/fetch-data">
-                                            <span class="glyphicon glyphicon-th-list"></span> Fetch data
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav-menu>
+                <nav-menu params="route: route"></nav-menu>
             </div>
             <div class="col-sm-9">
                 <h1>Hello, world!</h1>
@@ -69,6 +35,11 @@
                 <h3>More to come!</h3>
 
                 <a href="api/SampleData/WeatherForecasts">api sample data</a>
+
+                <hr/>
+                <counter-example></counter-example>
+                <fetch-data></fetch-data>
+                <home-page></home-page>
             </div>
         </div>
         

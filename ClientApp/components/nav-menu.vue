@@ -1,13 +1,46 @@
 <template>
-    <h2>nav-menu</h2>
+    <div class="main-nav">
+        <div class="navbar navbar-inverse">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="/">aspnetcore_Vue_starter</a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/" class="active">
+                            <span class="glyphicon glyphicon-home"></span> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/counter">
+                            <span class="glyphicon glyphicon-education"></span> Counter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/fetch-data">
+                            <span class="glyphicon glyphicon-th-list"></span> Fetch data
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-  export default {
+export default {
     data() {
-      }
+        return {
+        }
     }
-  }
+}
 </script>
 
 <style>

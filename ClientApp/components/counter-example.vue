@@ -1,13 +1,14 @@
 <template>
-    <h2>counter</h2>
+    <h2>counter-example</h2>
 </template>
 
 <script>
-  export default {
+export default {
     data() {
-      }
+        return {
+        }
     }
-  }
+}
 </script>
 
 <style>
