@@ -10,19 +10,19 @@ const inBrowser = typeof window !== 'undefined'
 // Hack needed for now (vue-resource uses document)
 // https://github.com/pagekit/vue-resource/issues/455
 if (inBrowser) {
-  Vue.use(require('vue-resource'))
+    Vue.use(require('vue-resource'))
 }
 
 sync(store, router)
 
 const app = new Vue({
-  store,
-  router,
-  ...App
+    store,
+    router,
+    ...App
 })
 
 export {
-  app,
-  router,
-  store
+    app,
+    router,
+    store
 }
