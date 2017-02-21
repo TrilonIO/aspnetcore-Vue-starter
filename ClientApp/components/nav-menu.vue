@@ -14,17 +14,17 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="/" class="active">
+                        <a href="#/" class="active">
                             <span class="glyphicon glyphicon-home"></span> Home
                         </a>
                     </li>
                     <li>
-                        <a href="/counter">
+                        <a href="#/counter">
                             <span class="glyphicon glyphicon-education"></span> Counter
                         </a>
                     </li>
                     <li>
-                        <a href="/fetch-data">
+                        <a href="#/fetch-data">
                             <span class="glyphicon glyphicon-th-list"></span> Fetch data
                         </a>
                     </li>
