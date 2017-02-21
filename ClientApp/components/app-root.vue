@@ -13,17 +13,13 @@
 
 <script>
   export default {
-    
     data() {
       return {
         counter: 0,
         data : null
       }
     },
-    
     created() {
-
-      
       /*this.$http
         .get('/api/ExampleWebAPI', (data) => {
           console.log(data);
@@ -35,7 +31,6 @@
         this.counter += 1
       }, 1000)
     }
-
   }
 </script>
 
