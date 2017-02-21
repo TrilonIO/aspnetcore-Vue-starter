@@ -13,20 +13,10 @@
             <div class="clearfix"></div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#/" class="active">
-                            <span class="glyphicon glyphicon-home"></span> Home
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#/counter">
-                            <span class="glyphicon glyphicon-education"></span> Counter
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#/fetch-data">
-                            <span class="glyphicon glyphicon-th-list"></span> Fetch data
-                        </a>
+                    <li v-for="route in routes">
+                        <router-link :to="route.path">
+                            <span :class="route.style"></span> {{ route.display }}
+                        </router-link>
                     </li>
                 </ul>
             </div>
@@ -35,9 +25,12 @@
 </template>
 
 <script>
+import { routes } from '../routes'
+
 export default {
     data() {
         return {
+            routes
         }
     }
 }
