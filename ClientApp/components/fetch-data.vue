@@ -53,7 +53,7 @@ export default {
         this.$http
             .get('/api/SampleData/WeatherForecasts')
 			.then(response => {
-			    console.log(response.data)
+                console.log(response.data)
                 this.forecasts = response.data
             })
             .catch((error) => console.log(error))
