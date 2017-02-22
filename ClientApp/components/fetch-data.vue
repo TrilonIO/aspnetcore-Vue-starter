@@ -20,8 +20,8 @@
 				<tr v-for="forecast in forecasts" >
                     <td>{{ forecast.dateFormatted }}</td>
                     <td>{{ forecast.temperatureC }}</td>
-					<td>{{ forecast.temperatureF }}</td>
-					<td>{{ forecast.summary }}</td>
+                    <td>{{ forecast.temperatureF }}</td>
+                    <td>{{ forecast.summary }}</td>
                 </tr>
             </tbody>
         </table>
