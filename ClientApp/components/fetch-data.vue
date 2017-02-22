@@ -22,7 +22,7 @@
                     <td>{{ forecast.temperatureC }}</td>
                     <td>{{ forecast.temperatureF }}</td>
                     <td>{{ forecast.summary }}</td>
-                </tr>
+            </tr>
             </tbody>
         </table>
         
@@ -42,14 +42,14 @@ export default {
     },
 
     created() {
-	    // With TypeScript or core-js, this can be changed to async/await like so:
-		// try {
-		//     let response = await this.$http.get('/api/SampleData/WeatherForecasts')
-		//     console.log(response.data);
+        // With TypeScript or core-js, this can be changed to async/await like so:
+        // try {
+        //     let response = await this.$http.get('/api/SampleData/WeatherForecasts')
+        //     console.log(response.data);
         //     this.forecasts = response.data;
-		// } catch (error) {
-		//     console.log(error)
-		// }
+        // } catch (error) {
+        //     console.log(error)
+        // }
         this.$http
             .get('/api/SampleData/WeatherForecasts')
 			.then(response => {
