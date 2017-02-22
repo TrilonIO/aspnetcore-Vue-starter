@@ -6,17 +6,17 @@
     "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development NODE_ENV=development dotnet run",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
-    "dependencies": {
-        "axios" : "^0.15.3",
-        "core-js": "^2.4.1",
-        "font-awesome": "^4.6.3",
-        "vue": "^2.1.6",
-        "vue-template-compiler": "^2.1.6",
-        "vue-router": "^2.1.1",
-        "vue-server-renderer": "^2.1.6",
-        "vuex": "^2.1.1",
-        "vuex-router-sync": "^4.0.1"
-    },
+  "dependencies": {
+    "axios" : "^0.15.3",
+    "core-js": "^2.4.1",
+    "font-awesome": "^4.6.3",
+    "vue": "^2.1.6",
+    "vue-template-compiler": "^2.1.6",
+    "vue-router": "^2.1.1",
+    "vue-server-renderer": "^2.1.6",
+    "vuex": "^2.1.1",
+    "vuex-router-sync": "^4.0.1"
+  },
   "devDependencies": {
     "aspnet-webpack": "^1.0.26",
     "aspnet-prerendering": "^2.0.0",
