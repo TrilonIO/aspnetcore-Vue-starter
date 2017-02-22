@@ -4,10 +4,10 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const INITIAL_STATE = {
-  loggedIn : false,
-  loggedInUser : {}
+    loggedIn: false,
+    loggedInUser: {}
 };
 
 export default new Vuex.Store({
-  INITIAL_STATE
+    INITIAL_STATE
 });
