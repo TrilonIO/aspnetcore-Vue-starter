@@ -4,9 +4,9 @@
 
         <p>This component demonstrates fetching data from the server.</p>
         
-        <p v-if="forecasts.length === 0"><em>Loading...</em></p>
+        <p v-if="!forecasts">"<em>Loading...</em></p>
 
-        <table class='table' v-if="forecasts">
+        <table class="table" v-if="forecasts">
             <thead>
                 <tr>
                     <th>Date</th>
@@ -32,7 +32,7 @@
 export default {
     data() {
         return {
-            forecasts: []
+    		    forecasts: null
         }
     },
 
@@ -40,13 +40,21 @@ export default {
     },
     
     created() {
-        this.$http({
-            url: './api/SampleData/WeatherForecasts'
-        }).then((response) => {
-            this.forecasts.push(...response.data)
-        }).catch((error) => {
-            console.log(error)
-        })
+        // With TypeScript or core-js, this can be changed to async/await like so:
+        // try {
+        //     let response = await this.$http.get('/api/SampleData/WeatherForecasts')
+        //     console.log(response.data);
+        //     this.forecasts = response.data;
+        // } catch (error) {
+        //     console.log(error)
+        // }
+        this.$http
+            .get('/api/SampleData/WeatherForecasts')
+            .then(response => {
+                console.log(response.data)
+                this.forecasts = response.data
+            })
+            .catch((error) => console.log(error))
     }
 }
 </script>
