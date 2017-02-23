@@ -22,7 +22,7 @@
                     <td>{{ forecast.temperatureC }}</td>
                     <td>{{ forecast.temperatureF }}</td>
                     <td>{{ forecast.summary }}</td>
-            </tr>
+                </tr>
             </tbody>
         </table>
         
@@ -52,7 +52,7 @@ export default {
         // }
         this.$http
             .get('/api/SampleData/WeatherForecasts')
-			.then(response => {
+            .then(response => {
                 console.log(response.data)
                 this.forecasts = response.data
             })
