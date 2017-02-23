@@ -1,4 +1,4 @@
-const path = require('path');
+﻿const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -17,7 +17,7 @@ module.exports = (env) => {
             ]
         },
         entry: {
-            vendor: ['bootstrap', 'bootstrap/dist/css/bootstrap.css', 'event-source-polyfill', 'isomorphic-fetch', 'vue', 'vuex', 'vue-resource', 'vue-router', 'style-loader', 'jquery'],
+            vendor: ['bootstrap', 'bootstrap/dist/css/bootstrap.css', 'event-source-polyfill', 'vue', 'vuex', 'axios', 'vue-router', 'style-loader', 'jquery'],
         },
         output: {
             path: path.join(__dirname, 'wwwroot', 'dist'),

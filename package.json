@@ -7,7 +7,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "axios" : "^0.15.3",
+    "axios": "^0.15.3",
     "core-js": "^2.4.1",
     "font-awesome": "^4.6.3",
     "vue": "^2.1.6",
@@ -18,11 +18,12 @@
     "vuex-router-sync": "^4.0.1"
   },
   "devDependencies": {
-    "aspnet-webpack": "^1.0.26",
     "aspnet-prerendering": "^2.0.0",
+    "aspnet-webpack": "^1.0.26",
     "awesome-typescript-loader": "3.0.0-beta.13 || ^3.0.0",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-stage-2": "^6.18.0",

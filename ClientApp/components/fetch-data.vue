@@ -3,9 +3,8 @@
         <h1>Weather forecast</h1>
 
         <p>This component demonstrates fetching data from the server.</p>
-        
-        
-        <p v-if="!forecasts">"<em>Loading...</em></p>
+
+        <p v-if="!forecasts"><em>Loading...</em></p>
 
         <table class="table" v-if="forecasts">
             <thead>
@@ -34,29 +33,31 @@
 export default {
     data() {
         return {
-		    forecasts: null
+            forecasts: null
         }
     },
 
     methods: {
     },
 
-    created() {
-        // With TypeScript or core-js, this can be changed to async/await like so:
-        // try {
-        //     let response = await this.$http.get('/api/SampleData/WeatherForecasts')
-        //     console.log(response.data);
-        //     this.forecasts = response.data;
-        // } catch (error) {
-        //     console.log(error)
-        // }
-        this.$http
-            .get('/api/SampleData/WeatherForecasts')
-            .then(response => {
-                console.log(response.data)
-                this.forecasts = response.data
-            })
-            .catch((error) => console.log(error))
+    async created() {
+        // ES2017 async/await syntax via babel-plugin-transform-async-to-generator
+        // TypeScript can also transpile async/await down to ES5
+        try {
+            let response = await this.$http.get('/api/SampleData/WeatherForecasts')
+            console.log(response.data);
+            this.forecasts = response.data;
+        } catch (error) {
+            console.log(error)
+        }
+        // Old promise-based approach
+        //this.$http
+        //    .get('/api/SampleData/WeatherForecasts')
+        //    .then(response => {
+        //        console.log(response.data)
+        //        this.forecasts = response.data
+        //    })
+        //    .catch((error) => console.log(error))*/
     }
 }
 </script>
