@@ -4,10 +4,9 @@
 
         <p>This component demonstrates fetching data from the server.</p>
         
-        <!--
-        <p data-bind='ifnot: forecasts'><em>Loading...</em></p>
+        <p v-if="forecasts.length === 0"><em>Loading...</em></p>
 
-        <table class='table' data-bind='if: forecasts'>
+        <table class='table' v-if="forecasts">
             <thead>
                 <tr>
                     <th>Date</th>
@@ -16,16 +15,15 @@
                     <th>Summary</th>
                 </tr>
             </thead>
-            <tbody data-bind='foreach: forecasts'>
+            <tbody v-for="forecast in forecasts">
                 <tr>
-                    <td data-bind='text: dateFormatted'></td>
-                    <td data-bind='text: temperatureC'></td>
-                    <td data-bind='text: temperatureF'></td>
-                    <td data-bind='text: summary'></td>
+                    <td>{{forecast.dateFormatted}}</td>
+                    <td>{{forecast.temperatureC}}</td>
+                    <td>{{forecast.temperatureF}}</td>
+                    <td>{{forecast.summary}}</td>
                 </tr>
             </tbody>
         </table>
-        -->
 
     </div>
 </template>
@@ -34,19 +32,21 @@
 export default {
     data() {
         return {
+            forecasts: []
         }
     },
 
     methods: {
     },
-
+    
     created() {
-        /*this.$http
-        .get('/api/ExampleWebAPI', (data) => {
-        console.log(data);
-        this.data = data;
+        this.$http({
+            url: './api/SampleData/WeatherForecasts'
+        }).then((response) => {
+            this.forecasts.push(...response.data)
+        }).catch((error) => {
+            console.log(error)
         })
-        .error((err) => console.log(err))*/
     }
 }
 </script>
