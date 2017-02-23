@@ -1,4 +1,4 @@
-.DS_Store
+﻿.DS_Store
 node_modules/
 npm-debug.log
 
@@ -249,3 +249,5 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+.vscode/
