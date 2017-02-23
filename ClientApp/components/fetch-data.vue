@@ -1,9 +1,8 @@
-﻿<template>
+<template>
     <div>
         <h1>Weather forecast</h1>
 
         <p>This component demonstrates fetching data from the server.</p>
-        
         
         <p v-if="!forecasts">"<em>Loading...</em></p>
 
@@ -16,16 +15,15 @@
                     <th>Summary</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr v-for="forecast in forecasts" >
-                    <td>{{ forecast.dateFormatted }}</td>
-                    <td>{{ forecast.temperatureC }}</td>
-                    <td>{{ forecast.temperatureF }}</td>
-                    <td>{{ forecast.summary }}</td>
+            <tbody v-for="forecast in forecasts">
+                <tr>
+                    <td>{{forecast.dateFormatted}}</td>
+                    <td>{{forecast.temperatureC}}</td>
+                    <td>{{forecast.temperatureF}}</td>
+                    <td>{{forecast.summary}}</td>
                 </tr>
             </tbody>
         </table>
-        
 
     </div>
 </template>
@@ -34,13 +32,13 @@
 export default {
     data() {
         return {
-		    forecasts: null
+    		    forecasts: null
         }
     },
 
     methods: {
     },
-
+    
     created() {
         // With TypeScript or core-js, this can be changed to async/await like so:
         // try {
