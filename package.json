@@ -1,7 +1,10 @@
 {
   "name": "aspnetcore-vuejs",
-  "description": "ASP.NET Core & Vue.js 2 Starter project",
+  "description": "MVC ASP.NET Core with Vue.js 2",
   "author": "Mark Pieszak",
+  "keywords": [
+    "Web", "MVC", "SPA", "Vuejs"
+  ],
   "scripts": {
     "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development NODE_ENV=development dotnet run",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
