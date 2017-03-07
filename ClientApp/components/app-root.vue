@@ -8,13 +8,12 @@
                 <router-view></router-view>
             </div>
         </div>
-        
+
     </div>
 
 </template>
 
 <script>
-
 import Vue from 'vue'
 import CounterExample from './counter-example'
 import FetchData from './fetch-data'
@@ -31,7 +30,7 @@ export default {
         return {
         }
     }
-} 
+}
 </script>
 
 <style>
