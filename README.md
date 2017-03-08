@@ -5,6 +5,10 @@ on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017
 
 Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)
 
+**Prerequisites:**
+ * nodejs >6
+ * dotnet core
+
 **To run the template:**
 
  * Clone this repo
