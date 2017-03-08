@@ -1,24 +1,29 @@
-# Asp.NETCore Vue 2 Starter
+﻿# Asp.NETCore Vue 2 Starter
 
-> Note: The Repo is functional - many improvements coming soon!
+This repo contains an aspnetcore + Vue.js 2 starter template (VS2017). The template is based
+on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
-> Still a Work in Progress, **PRs always welcome!**
+Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)
 
-Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)
+**To run the template:**
 
-<p align="center">
-    <img src="https://github.com/markpieszak/aspnetcore-vue-starter/blob/master/architecture.png" alt="ASP.NET Core & Vue 2.* Starter" title="ASP.NET Core & Vue 2.* Starter">
-</p>
+ * Clone this repo
+ * At the repo's root directory run `dotnet restore`
+ * Restore Node dependencies by running `npm install`
+ * Run the application (`dotnet run` or 'npm run dev')
+
+ or
+ * Run the application in VSCode or Visual Studio 2017 (Hit `F5`)
+ * Browse to [http://localhost:5000](http://localhost:5000)
+
+---
 
 # Table of Contents
 
 * [Features](#features)
-* [Getting Started](#getting-started)
 * [Extras](#extras)
 * [Special Thanks](#special-thanks)
 * [License](#license)
-
----
 
 # Features
 
@@ -28,30 +33,14 @@ Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://
   - Vuex (State Store)
 - **Webpack 2**
   - HMR (Hot Module Replacement/Reloading)
-  
 - ...more details to come...
-  
 
 # Todo
 
-- **Typescript support**
-  - as it's cool
-- **Default app**
-  - bootstrap
-  - counter
-  - fetchdata
-  - navmenu
 - **Dotnet new**
   - make available as a nuget to easily use in 'dotnet new'
-----
-
-# Getting Started?
-
-- Fork and Clone repo
-- `yarn install && webpack`
-- Hit `F5` in VSCode or Visual Studio 
-- Enjoy :)
-
+- **Typescript support**
+  - as it's cool
 ----
 
 # Extras
@@ -68,7 +57,7 @@ Nothing's ever perfect, but please let me know by creating an issue (make sure t
 
 ### Special Thanks
 
-Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his amazing work on JavaScriptServices and integrating the world of Node with ASP.NET Core.
+Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his amazing work on [JavaScriptServices](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) and integrating the world of Node with ASP.NET Core.
 
 
 ### License
