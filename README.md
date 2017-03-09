@@ -9,7 +9,7 @@ Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://gi
  * nodejs >6
  * dotnet core
 
-**Install template:**
+**[TODO] Install template:**
  * `dotnet new --install Microsoft.AspNetCore.SpaTemplates.Vue2Js`
 
 **[TODO] To use the template:**
