@@ -9,13 +9,23 @@ Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://gi
  * nodejs >6
  * dotnet core
 
-**To run the template:**
+**Install template:**
+ * `dotnet new --install Microsoft.AspNetCore.SpaTemplates.Vue2Js`
 
+**[TODO] To use the template:**
+ * mkdir + chdir
+ * `dotnet new -l`
+ * `dotnet new vue2js`
+ * `dotnet restore`
+ * `npm install`
+ * Run the application (`dotnet run` or `npm run dev`)
+
+**To use the template from repo:**
  * Clone this repo
  * At the repo's root directory run `dotnet restore`
  * Restore Node dependencies by running `npm install`
- * Run the application (`dotnet run` or 'npm run dev')
-
+ * Run the application (`dotnet run` or `npm run dev`)
+ 
  or
  * Run the application in VSCode or Visual Studio 2017 (Hit `F5`)
  * Browse to [http://localhost:5000](http://localhost:5000)
@@ -37,15 +47,8 @@ Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://gi
   - Vuex (State Store)
 - **Webpack 2**
   - HMR (Hot Module Replacement/Reloading)
+- **Bootstrap**
 - ...more details to come...
-
-# Todo
-
-- **Dotnet new**
-  - make available as a nuget to easily use in 'dotnet new'
-- **Typescript support**
-  - as it's cool
-----
 
 # Extras
 
