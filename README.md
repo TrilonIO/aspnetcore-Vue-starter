@@ -66,6 +66,11 @@ Nothing's ever perfect, but please let me know by creating an issue (make sure t
 
 Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his amazing work on [JavaScriptServices](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) and integrating the world of Node with ASP.NET Core.
 
+### Also, a million thanks to key Contributors ! 
+
+- [@vip32](https://github.com/vip32) :sparkles:
+- [@anderly](https://github.com/anderly) :sparkles:
+
 
 ### License
 
