@@ -4,7 +4,8 @@
   "author": "Mark Pieszak",
   "scripts": {
     "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development NODE_ENV=development dotnet run",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "install": "webpack --config webpack.config.vendor.js"
   },
   "dependencies": {
     "axios": "^0.15.3",
