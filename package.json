@@ -19,7 +19,6 @@
     "vuex-router-sync": "^4.0.1"
   },
   "devDependencies": {
-    "aspnet-prerendering": "^2.0.0",
     "aspnet-webpack": "^2.0.1",
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
