@@ -1,8 +1,7 @@
 @{ ViewData["Title"] = "Home Page"; }
 
-<div id="app" asp-prerender-module="ClientApp/boot-server"></div>
-<!--<div id="app"></div>-->
+<div id="app"></div>
 
 @section scripts {
-<script src="~/dist/main.js" asp-append-version="true"></script>
+    <script src="~/dist/main.js" asp-append-version="true"></script>
 }
