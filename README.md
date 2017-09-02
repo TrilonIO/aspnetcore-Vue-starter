@@ -16,6 +16,8 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 * [Extras](#extras)
 * [Special Thanks](#special-thanks)
 * [License](#license)
+* [Social Media](#follow-me-online)
+* [Vue & ASPNET Consulting](#looking-for-vue)
 
 # Features
 
@@ -80,7 +82,20 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 - [@anderly](https://github.com/anderly) :sparkles:
 
 
-### License
+----
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE.md)
+# License
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
+
+Copyright (c) 2016-2017 [Mark Pieszak](https://github.com/MarkPieszak)
+
+### Follow me online:
+
+Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
+
+----
+
+# Looking for Vue / JavaScript or ASP.NET Consulting + Training + support?
+
+[Contact me](mpieszak84@gmail.com), and let's talk about your projects needs!
