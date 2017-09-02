@@ -17,7 +17,7 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 * [Special Thanks](#special-thanks)
 * [License](#license)
 * [Social Media](#follow-me-online)
-* [Vue & ASPNET Consulting](#looking-for-vue)
+* [Vue & ASP.NET Consulting & training?](##looking-for-vue--javascript-or-aspnet-consulting--training--support)
 
 # Features
 
