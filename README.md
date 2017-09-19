@@ -17,7 +17,7 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 * [Special Thanks](#special-thanks)
 * [License](#license)
 * [Social Media](#follow-me-online)
-* [Vue & ASP.NET Consulting & training?](##looking-for-vue--javascript-or-aspnet-consulting--training--support)
+* [Vue & ASP.NET Consulting & training](##looking-for-vue--javascript-or-aspnet-consulting--training--support)
 
 # Features
 
@@ -98,4 +98,4 @@ Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak]
 
 # Looking for Vue / JavaScript or ASP.NET Consulting + Training + support?
 
-[Contact me](mpieszak84@gmail.com), and let's talk about your projects needs!
+Contact me @ <mpieszak84@gmail.com>, and let's talk about your projects needs!
