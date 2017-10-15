@@ -40,10 +40,8 @@ export default {
     methods: {
         toggleCollapsed: function(event){
             this.collapsed = !this.collapsed;
-            console.log("Current collapsed= ", this.collapsed);
         }
     }
-
 }
 </script>
 
