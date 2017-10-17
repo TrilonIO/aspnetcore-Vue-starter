@@ -2,7 +2,7 @@
     <div class="main-nav">
         <div class="navbar navbar-inverse">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <button type="button" class="navbar-toggle" v-on:click="toggleCollapsed">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -11,16 +11,18 @@
                 <a class="navbar-brand" href="/">Vue2Spa</a>
             </div>
             <div class="clearfix"></div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li v-for="route in routes">
-                        <!-- TODO: highlight active link -->
-                        <router-link :to="route.path">
-                            <span :class="route.style"></span> {{ route.display }}
-                        </router-link>
-                    </li>
-                </ul>
-            </div>
+            <transition name="slide">
+                <div class="navbar-collapse collapse in" v-show="!collapsed">
+                    <ul class="nav navbar-nav">
+                        <li v-for="route in routes">
+                            <!-- TODO: highlight active link -->
+                            <router-link :to="route.path">
+                                <span :class="route.style"></span> {{ route.display }}
+                            </router-link>
+                        </li>
+                    </ul>
+                </div>
+            </transition>
         </div>
     </div>
 </template>
@@ -31,11 +33,27 @@ import { routes } from '../routes'
 export default {
     data() {
         return {
-            routes
+            routes,
+            collapsed : true
+        }
+    },
+    methods: {
+        toggleCollapsed: function(event){
+            this.collapsed = !this.collapsed;
         }
     }
 }
 </script>
 
 <style>
+.slide-enter-active, .slide-leave-active {
+  transition: max-height .35s
+}
+.slide-enter, .slide-leave-to {
+  max-height: 0px;
+}
+
+.slide-enter-to, .slide-leave {
+  max-height: 20em;
+}
 </style>
