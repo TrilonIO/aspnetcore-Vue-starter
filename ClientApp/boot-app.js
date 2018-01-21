@@ -1,7 +1,20 @@
-﻿import './css/site.css'
-import 'core-js/es6/promise'
-import 'core-js/es6/array'
+import Vue from 'Vue'
+import App from './components/App'
+import router from './router'
+import store from './store'
+import { sync } from 'vuex-router-sync'
 
-import { app } from './app'
 
-app.$mount('#app')
+//Sync Vue router and the Vuex store
+
+sync(store, router)
+
+new Vue({
+    el: '#app',
+    store,
+    router,
+    template: '<App/>',
+    components: { App }
+})
+
+store.dispatch('checkLoggedIn')
