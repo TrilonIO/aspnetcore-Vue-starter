@@ -4,8 +4,8 @@
         <p>Welcome to your new single-page application, built with:</p>
         <ul>
             <li><a href="https://get.asp.net/">ASP.NET Core</a> and <a href="https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx">C#</a>                    for cross-platform server-side code</li>
-            <li><a href="https://vuejs.org/">Vue.js</a> and <a href="http://www.typescriptlang.org/">TypeScript</a>                    for client-side code</li>
-            <li><a href="https://webpack.github.io/">Webpack</a> for building and bundling client-side resources</li>
+            <li><a href="https://vuejs.org/">Vue.js</a> for client-side code</li>
+            <li><a href="https://webpack.js.org/">Webpack</a> for building and bundling client-side resources</li>
             <li><a href="http://getbootstrap.com/">Bootstrap</a> for layout and styling</li>
             <li><a href="api/SampleData/WeatherForecasts">API sample data</a> from the dotnet controller</li>
         </ul>
@@ -24,6 +24,15 @@
             <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled,
                 and the <code>webpack</code> build tool produces minified static CSS and JavaScript files.</li>
         </ul>
+
+        <br><br>
+
+        <h2>This Template brought to you by <a href="http://DevHelp.Online">DevHelp.Online</a></h2>
+        <strong>Consulting | Development | Training | Workshops</strong><br>
+        <p>Get your Team or Application up to speed by working with some of the leading industry experts in JavaScript & ASP.NET!</p>
+
+        <strong>Contact us today: </strong>
+        <p><a href="mailto:hello@devhelp.online">Hello@DevHelp.Online</a></p>
     </div>
 </template>
 
