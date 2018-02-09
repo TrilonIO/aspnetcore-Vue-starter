@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Mark Pieszak, Mladen Mihajlovic",
+    "classifications": [ "Web", "MVC", "SPA" ],
+    "identity": "aspnetcore-vuejs",
+    "name": "ASP.NET Core with Vue.js 2",
+    "shortName": "vuejs",
+    "tags": {
+        "language": "C#",
+        "type":"project"
+      },
+    "sourceName": "Vue2Spa",
+    "preferNameDirectory": true
+}

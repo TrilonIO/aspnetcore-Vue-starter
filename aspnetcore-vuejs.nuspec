@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>aspnetcore-vuejs</id>
+    <version>1.0.0</version>
+    <description>
+      Template for ASP.Net Core 2 WebApi and Vue.js 2 Client app with webpack and hot reloading
+    </description>
+    <authors>Mark Pieszak, Mladen Mihajlovic</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file
+      src="content/**/*"
+      exclude="**/node_modules/**;**/bin/**;**/obj/**;**/.vs/**;**/.vscode/**;**/ClientApp/dist/**;**/wwwroot/dist/**;content/Directory.Build.*"
+      target="Content" />
+  </files>
+</package>
