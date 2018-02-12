@@ -11,8 +11,8 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 
 * [Features](#features)
 * [Prerequisites](#prerequisites)
-* [Installation - Getting Started!](#installation)
-* [Upcoming Features](#upcoming-features)
+* [Installation](#installation)
+* [Getting Started](#getting-started)
 * [Extras](#extras)
 * [Special Thanks](#special-thanks)
 * [License](#license)
@@ -35,11 +35,14 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
  * VS2017
  * dotnet core 2.0
 
-# Installation / Getting Started:
- * Clone this repo
- * At the repo's root directory run `dotnet restore`
+# Installation:
+ * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
+ 
+# Getting Started:
+ * Create folder from template: `dotnet new vuejs` (official docs [here](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+   * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
- * Run the application (`dotnet run` or `npm run dev`)
+ * Run the application (`dotnet run` or `npm run dev`) - note dotnet run should be run in Development environment for hot reloading
  
  or
  
@@ -49,20 +52,6 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 # Extras
 
 - Get Chrome DevTools for Vue [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-
-
-# Upcoming Features (to-do list)
-
-**[TODO] Install template:**
- * `dotnet new --install Microsoft.AspNetCore.SpaTemplates.Vue2Js`
-
-**[TODO] To use the template:**
- * mkdir + chdir
- * `dotnet new -l`
- * `dotnet new vue2js`
- * `dotnet restore`
- * `npm install`
- * Run the application (`dotnet run` or `npm run dev`)
 
 ----
 
@@ -78,7 +67,7 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 ### Also, a million thanks to key Contributors ! 
 
-- [@mika76])(https://github.com/mika76) :sparkles:
+- [@mika76](https://github.com/mika76) :sparkles:
 - [@vip32](https://github.com/vip32) :sparkles:
 - [@anderly](https://github.com/anderly) :sparkles:
 
