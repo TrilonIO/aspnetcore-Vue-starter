@@ -58,7 +58,7 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 
 **[TODO] To use the template:**
  * mkdir + chdir
- * ~~`dotnet new -l`~~ thank you [@mika76])(https://github.com/mika76) :sparkles:
+ * `dotnet new -l`
  * `dotnet new vue2js`
  * `dotnet restore`
  * `npm install`
