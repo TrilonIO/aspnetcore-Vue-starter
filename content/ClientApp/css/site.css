@@ -72,6 +72,7 @@
         border-radius: 4px;
         color: white;
     }
+    
     .navbar a {
         /* If a menu item's text is too long, truncate it */
         width: 95%; /* Bug to fix here. Width 100% overflow. */
