@@ -16,7 +16,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="forecast in forecasts" >
+                <tr v-for="(forecast, key, index) in forecasts" :key="index">
                     <td>{{ forecast.dateFormatted }}</td>
                     <td>{{ forecast.temperatureC }}</td>
                     <td>{{ forecast.temperatureF }}</td>
@@ -24,8 +24,6 @@
                 </tr>
             </tbody>
         </table>
-        
-
     </div>
 </template>
 

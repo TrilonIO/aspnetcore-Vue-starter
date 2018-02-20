@@ -1,7 +1,7 @@
 <template>
     <div id="app" class="container-fluid">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-3">
                 <nav-menu params="route: route"></nav-menu>
             </div>
             <div class="col-sm-9">
@@ -27,8 +27,7 @@ Vue.component('nav-menu', NavMenu);
 
 export default {
     data() {
-        return {
-        }
+        return {}
     }
 }
 </script>
