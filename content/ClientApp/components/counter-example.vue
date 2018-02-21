@@ -11,8 +11,8 @@
       Auto count: <strong>{{ autoCount }}</strong>
     </p>
 
-    <button @click="incrementCounter()">Increment</button>
-    <button @click="resetCounter()">Reset</button>
+    <button type="button" class="btn btn-primary" @click="incrementCounter()">Increment</button>
+    <button type="button" class="btn btn-secondary" @click="resetCounter()">Reset</button>
   </div>
 </template>
 
@@ -39,6 +39,7 @@
         var counter = this.currentCount + 1;
         this.setCounter({counter: counter});
       },
+
       resetCounter: function() {
         this.setCounter({counter: 0});
         this.autoCount = 0;

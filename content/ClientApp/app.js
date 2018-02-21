@@ -5,6 +5,11 @@ import store from './store'
 import { sync } from 'vuex-router-sync'
 import App from 'components/app-root'
 
+
+import { FontAwesomeIcon } from './icons'
+// Registration of global components
+Vue.component('icon', FontAwesomeIcon);
+
 Vue.prototype.$http = axios;
 
 sync(store, router)

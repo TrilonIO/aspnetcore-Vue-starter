@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">ASP.NET Core with Vue.js 2</a>
+            <a class="navbar-brand" href="/"><icon :icon="['fab', 'microsoft']"/> ASP.NET Core with Vue.js 2</a>
 
             <transition name="slide">
                 <div :class="'collapse navbar-collapse' + (!collapsed ? ' show':'')" v-show="!collapsed">
@@ -28,9 +28,6 @@
 import { routes } from '../router/routes'
 
 export default {
-    components: {
-        // FontAwesomeIcon
-    },
     data() {
         return {
             routes,
