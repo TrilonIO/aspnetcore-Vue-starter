@@ -14,7 +14,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item" v-for="(route, key, index) in routes" :key="index">
                             <router-link :to="route.path" exact-active-class="active">
-                                <span :class="route.style">{{ route.display }}</span> 
+                                <icon :icon="route.icon" class="mr-2" /><span>{{ route.display }}</span> 
                             </router-link>
                         </li>
                     </ul>
@@ -28,6 +28,9 @@
 import { routes } from '../router/routes'
 
 export default {
+    components: {
+        // FontAwesomeIcon
+    },
     data() {
         return {
             routes,
