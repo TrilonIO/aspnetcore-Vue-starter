@@ -78,7 +78,8 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 ### Also, a million thanks to key Contributors ! 
 
-- [@mika76])(https://github.com/mika76) :sparkles:
+- [@mika76](https://github.com/mika76) :sparkles:
+- [@Nordes](https://github.com/Nordes) :sparkles:
 - [@vip32](https://github.com/vip32) :sparkles:
 - [@anderly](https://github.com/anderly) :sparkles:
 
