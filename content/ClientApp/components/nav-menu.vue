@@ -12,7 +12,7 @@
             <transition name="slide">
                 <div :class="'collapse navbar-collapse' + (!collapsed ? ' show':'')" v-show="!collapsed">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item" v-for="(route, key, index) in routes" :key="index">
+                        <li class="nav-item" v-for="(route, index) in routes" :key="index">
                             <router-link :to="route.path" exact-active-class="active">
                                 <icon :icon="route.icon" class="mr-2" /><span>{{ route.display }}</span> 
                             </router-link>
