@@ -1,3 +1,4 @@
+/* This file should be reviewed. It's not optimal, but it works for now. */
 .navbar {
     display: list-item;
 }
