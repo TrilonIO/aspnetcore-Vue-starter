@@ -2,12 +2,19 @@
   "name": "aspnetcore-vuejs",
   "description": "ASP.NET Core & VueJS Starter project",
   "author": "Mark Pieszak",
+  "repository": {
+    "url": "https://github.com/MarkPieszak/aspnetcore-Vue-starter"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "cross-env ASPNETCORE_ENVIRONMENT=Development NODE_ENV=development dotnet run",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "install": "webpack --config webpack.config.vendor.js"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.3",
+    "@fortawesome/fontawesome-free-solid": "^5.0.6",
+    "@fortawesome/vue-fontawesome": "0.0.22",
     "axios": "^0.15.3",
     "core-js": "^2.5.3",
     "font-awesome": "^4.7.0",
@@ -36,7 +43,7 @@
     "jquery": "^2.2.4",
     "node-sass": "^4.7.2",
     "optimize-css-assets-webpack-plugin": "^1.3.2",
-    "popper.js": "^1.12.9",
+    "popper.js": "^1.13.0",
     "sass-loader": "^4.1.1",
     "style-loader": "^0.13.2",
     "url-loader": "^0.5.9",
