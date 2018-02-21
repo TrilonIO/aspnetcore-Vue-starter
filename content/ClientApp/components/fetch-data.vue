@@ -4,7 +4,11 @@
 
         <p>This component demonstrates fetching data from the server.</p>
 
-        <p v-if="!forecasts"><em>Loading...</em></p>
+        <div v-if="!forecasts" class="text-center">
+            <p><em>Loading...</em></p>
+            <h1><icon icon="spinner" pulse/></h1>            
+        </div>
+        
 
         <table class="table" v-if="forecasts">
             <thead>
