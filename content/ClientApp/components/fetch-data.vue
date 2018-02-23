@@ -68,7 +68,6 @@ export default {
             try {
                 var from = (page-1) * (this.pageSize);
                 var to = from + this.pageSize;
-                console.log({ page: page, from: from, to: to} );
                 let response = await this.$http.get(`/api/weather/forecasts?from=${from}&to=${to}`)
                 console.log(response.data.forecasts);
                 this.forecasts = response.data.forecasts;
