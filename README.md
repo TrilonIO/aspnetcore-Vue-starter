@@ -25,15 +25,14 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
   - Web API
 - **VueJS 2**
   - Vuex (State Store)
-- **Webpack 2**
+- **Webpack**
   - HMR (Hot Module Replacement/Reloading)
-- **Bootstrap**
-- ...more details to come...
+- **Bootstrap 4**
 
 # Prerequisites:
- * nodejs > 6
- * VS2017
  * dotnet core 2.0
+ * nodejs >= 8.9.4
+ * VSCode (ideally), or VS2017
 
 # Installation:
  * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
@@ -42,6 +41,9 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
  * Create folder from template: `dotnet new vuejs` (official docs [here](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
    * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
+
+To start the applicatoin up:
+
  * Run the application (`dotnet run` or `npm run dev`) - note dotnet run should be run in Development environment for hot reloading
  
  or
@@ -81,7 +83,7 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
 
-Copyright (c) 2016-2017 [Mark Pieszak](https://github.com/MarkPieszak)
+Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
 
 ### Follow me online:
 
