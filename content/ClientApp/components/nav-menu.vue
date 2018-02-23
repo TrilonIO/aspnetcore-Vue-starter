@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/"><icon :icon="['fab', 'microsoft']"/> ASP.NET Core with Vue.js 2</a>
+            <router-link class="navbar-brand" to="/"><icon :icon="['fab', 'microsoft']"/> ASP.NET Core with Vue.js 2</router-link>
 
             <transition name="slide">
                 <div :class="'collapse navbar-collapse' + (!collapsed ? ' show':'')" v-show="!collapsed">
@@ -25,21 +25,21 @@
 </template>
 
 <script>
-import { routes } from '../router/routes'
+    import { routes } from '../router/routes'
 
-export default {
-    data() {
-        return {
-            routes,
-            collapsed : true
-        }
-    },
-    methods: {
-        toggleCollapsed: function(event){
-            this.collapsed = !this.collapsed;
+    export default {
+        data() {
+            return {
+                routes,
+                collapsed : true
+            }
+        },
+        methods: {
+            toggleCollapsed: function(event){
+                this.collapsed = !this.collapsed;
+            }
         }
     }
-}
 </script>
 
 <style scoped>

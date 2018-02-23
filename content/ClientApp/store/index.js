@@ -8,7 +8,7 @@ const MAIN_SET_COUNTER = 'MAIN_SET_COUNTER'
 
 // STATE
 const state = {
-    counter: 25
+    counter: 1
 }
 
 // MUTATIONS
