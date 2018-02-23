@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Vue2Spa.Providers;
@@ -20,7 +18,7 @@ namespace Vue2Spa.Controllers
         public IActionResult Forecasts([FromQuery(Name = "from")] int from = 0, [FromQuery(Name = "to")] int to = 4)
         {
             //System.Threading.Thread.Sleep(500); // Fake latency
-            var quantity = to - from + 1;
+            var quantity = to - from;
 
             // We should also avoid going too far in the list.
             if (quantity <= 0)
@@ -36,8 +34,9 @@ namespace Vue2Spa.Controllers
             var result = new
             {
                 Total = allForecasts.Count,
-                Forecasts = allForecasts.Skip(from).Take(to - from).ToArray()
+                Forecasts = allForecasts.Skip(from).Take(quantity).ToArray()
             };
+
             return Ok(result);
         }
     }
