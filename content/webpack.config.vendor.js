@@ -34,7 +34,11 @@ module.exports = (env) => {
                     safe: true
                 }
             }),
-            new webpack.ProvidePlugin({ $: 'jquery', jQuery: 'jquery' }), // Maps these identifiers to the jQuery package (because Bootstrap expects it to be a global variable)
+            new webpack.ProvidePlugin({ 
+                $: 'jquery', 
+                jQuery: 'jquery', 
+                Popper: ['popper.js', 'default']
+            }), // Maps these identifiers to the jQuery package (because Bootstrap expects it to be a global variable)
             new webpack.DllPlugin({
                 path: path.join(__dirname, 'wwwroot', 'dist', '[name]-manifest.json'),
                 name: '[name]_[hash]'

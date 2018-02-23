@@ -4,10 +4,13 @@
 
         <p>This component demonstrates fetching data from the server.</p>
 
-        <p v-if="!forecasts"><em>Loading...</em></p>
+        <div v-if="!forecasts" class="text-center">
+            <p><em>Loading...</em></p>
+            <h1><icon icon="spinner" pulse/></h1>            
+        </div>
 
         <table class="table" v-if="forecasts">
-            <thead>
+            <thead  class="bg-dark text-white">
                 <tr>
                     <th>Date</th>
                     <th>Temp. (C)</th>
@@ -16,7 +19,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="forecast in forecasts" >
+                <tr :class="index % 2 == 0 ? 'bg-white' : 'bg-light'" v-for="(forecast, index) in forecasts" :key="index">
                     <td>{{ forecast.dateFormatted }}</td>
                     <td>{{ forecast.temperatureC }}</td>
                     <td>{{ forecast.temperatureF }}</td>
@@ -24,8 +27,6 @@
                 </tr>
             </tbody>
         </table>
-        
-
     </div>
 </template>
 

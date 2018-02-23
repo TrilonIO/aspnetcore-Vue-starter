@@ -1,34 +1,31 @@
 ﻿<template>
     <div class="main-nav">
-        <div class="navbar navbar-inverse">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" v-on:click="toggleCollapsed">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                <a class="navbar-brand" href="/">ASP.NET Core with Vue.js 2</a>
-            </div>
-            <div class="clearfix"></div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" @click="toggleCollapsed">
+                <span class="navbar-toggler-icon"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"><icon :icon="['fab', 'microsoft']"/> ASP.NET Core with Vue.js 2</a>
+
             <transition name="slide">
-                <div class="navbar-collapse collapse in" v-show="!collapsed">
-                    <ul class="nav navbar-nav">
-                        <li v-for="route in routes">
-                            <!-- TODO: highlight active link -->
-                            <router-link :to="route.path">
-                                <span :class="route.style"></span> {{ route.display }}
+                <div :class="'collapse navbar-collapse' + (!collapsed ? ' show':'')" v-show="!collapsed">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item" v-for="(route, index) in routes" :key="index">
+                            <router-link :to="route.path" exact-active-class="active">
+                                <icon :icon="route.icon" class="mr-2" /><span>{{ route.display }}</span> 
                             </router-link>
                         </li>
                     </ul>
                 </div>
             </transition>
-        </div>
+        </nav>
     </div>
 </template>
 
 <script>
-import { routes } from '../routes'
+import { routes } from '../router/routes'
 
 export default {
     data() {
@@ -45,15 +42,15 @@ export default {
 }
 </script>
 
-<style>
-.slide-enter-active, .slide-leave-active {
-  transition: max-height .35s
-}
-.slide-enter, .slide-leave-to {
-  max-height: 0px;
-}
+<style scoped>
+    .slide-enter-active, .slide-leave-active {
+    transition: max-height .35s
+    }
+    .slide-enter, .slide-leave-to {
+    max-height: 0px;
+    }
 
-.slide-enter-to, .slide-leave {
-  max-height: 20em;
-}
+    .slide-enter-to, .slide-leave {
+    max-height: 20em;
+    }
 </style>
