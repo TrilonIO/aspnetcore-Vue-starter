@@ -1,7 +1,6 @@
 import fontawesome from '@fortawesome/fontawesome'
-import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
-
 // Official documentation available at: https://github.com/FortAwesome/vue-fontawesome
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 import { faEnvelope, faHome, faGraduationCap, faList, faSpinner } from '@fortawesome/fontawesome-free-solid'
 import { faMicrosoft, faVuejs, faFontAwesome } from '@fortawesome/fontawesome-free-brands'
 

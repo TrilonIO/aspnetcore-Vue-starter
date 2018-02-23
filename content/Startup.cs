@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
@@ -26,6 +27,9 @@ namespace Vue2Spa
         {
             // Add framework services.
             services.AddMvc();
+
+            // Simple example with dependency injection for a data provider.
+            services.AddSingleton<Providers.IWeatherProvider, Providers.WeatherProviderFake>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,9 +41,11 @@ namespace Vue2Spa
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                // Webpack initialization with hot-reload.
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
-                    HotModuleReplacement = true
+                    HotModuleReplacement = true,
                 });
             }
             else

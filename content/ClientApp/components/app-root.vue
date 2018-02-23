@@ -18,6 +18,7 @@
         components: {
             'nav-menu': NavMenu
         },
+
         data() {
             return {}
         }
