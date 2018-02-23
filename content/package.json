@@ -38,6 +38,8 @@
     "bootstrap": "^4.0.0",
     "cross-env": "^3.2.4",
     "css-loader": "^0.26.4",
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
     "event-source-polyfill": "0.0.7",
     "extract-text-webpack-plugin": "^2.1.2",
     "file-loader": "^0.9.0",
