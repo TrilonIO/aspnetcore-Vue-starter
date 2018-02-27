@@ -1,9 +1,9 @@
 # Asp.NETCore 2.0 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
 
-This repo contains an aspnetcore + Vue.js 2 starter template (VS2017). The template is based
+This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
 on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
-_Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)_
+_Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)_
  
 ---
 
@@ -17,7 +17,7 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 * [Special Thanks](#special-thanks)
 * [License](#license)
 * [Social Media](#follow-me-online)
-* [Vue & ASP.NET Consulting & training](#devhelponline---angular--aspnet---consulting--training--development)
+* [VueJS & ASP.NET Consulting & training](#Training)
 
 # Features
 
@@ -30,30 +30,33 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 - **Bootstrap 4**
 
 # Prerequisites:
- * dotnet core 2.0
- * nodejs >= 8.9.4
- * VSCode (ideally), or VS2017
+ * [.Net Core 2](https://www.microsoft.com/net/download/windows)
+ * [NodeJS](https://nodejs.org/) >= 8.9.4
+ * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
 # Installation:
  * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
  
 # Getting Started:
- * Create folder from template: `dotnet new vuejs` (official docs [here](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+ * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
    * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
 
-To start the applicatoin up:
+## Start the application:
 
- * Run the application (`dotnet run` or `npm run dev`) - note dotnet run should be run in Development environment for hot reloading
+### Using the command line
+Run the application using `dotnet run` or `npm run dev`
+- note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
  
- or
- 
- * Run the application in VSCode or Visual Studio 2017 (Hit `F5`)
- * Browse to [http://localhost:5000](http://localhost:5000)
+### Using the built-in run command
+Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
-# Extras
+## View the application running
+Browse to [http://localhost:5000](http://localhost:5000)
 
-- Get Chrome DevTools for Vue [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+# Recommended plugin for debugging VueJS
+
+- Get Chrome DevTools for VueJS [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 ----
 
@@ -69,28 +72,26 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 ### Also, a million thanks to key Contributors ! 
 
-
-
 - [@Nordes](https://github.com/Nordes) :sparkles:
 - [@mika76](https://github.com/mika76) :sparkles:
 - [@vip32](https://github.com/vip32) :sparkles:
 - [@anderly](https://github.com/anderly) :sparkles:
 
-
 ----
 
 # License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/content/LICENSE) 
 
 Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
 
 ### Follow me online:
 
-Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
+Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak) 
 
 ----
 
+<a name="Training"/>
 # DevHelp.Online - VueJS & ASP.NET - Consulting | Training | Development
 
 Check out **[www.DevHelp.Online](http://DevHelp.Online)** for more info! Twitter [@DevHelpOnline](https://twitter.com/DevHelpOnline)
