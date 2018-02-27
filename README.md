@@ -44,14 +44,14 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
 
 ## Start the application:
 
-### Using the command line
+### 1. Using the command line
 Run the application using `dotnet run` or `npm run dev`
 - note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
  
-### Using the built-in run command
+### 2. Using the built-in run command
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
-## View the application running
+## View your application running
 Browse to [http://localhost:5000](http://localhost:5000)
 
 # Recommended plugin for debugging VueJS
