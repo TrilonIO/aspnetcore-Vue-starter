@@ -43,6 +43,7 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
  * Restore Node dependencies by running `npm install`
 
 ## Start the application:
+You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
 
 ### 1. Using the command line
 Run the application using `dotnet run` or `npm run dev`
