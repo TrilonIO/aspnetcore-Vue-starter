@@ -92,6 +92,7 @@ Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak]
 ----
 
 <a name="Training"/>
+
 # DevHelp.Online - VueJS & ASP.NET - Consulting | Training | Development
 
 Check out **[www.DevHelp.Online](http://DevHelp.Online)** for more info! Twitter [@DevHelpOnline](https://twitter.com/DevHelpOnline)
