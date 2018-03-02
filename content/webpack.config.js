@@ -2,8 +2,10 @@ const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const bundleOutputDir = './wwwroot/dist';
+const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = (env) => {
+    const extractCSS = new ExtractTextPlugin('site.css');
     const isDevBuild = !(env && env.prod);
     return [{
         stats: { modules: false },
@@ -11,7 +13,6 @@ module.exports = (env) => {
         resolve: {
             extensions: ['.js', '.vue'],
             alias: {
-                'vue$': 'vue/dist/vue',
                 'components': path.resolve(__dirname, './ClientApp/components'),
                 'views': path.resolve(__dirname, './ClientApp/views'),
                 'utils': path.resolve(__dirname, './ClientApp/utils'),
@@ -45,7 +46,13 @@ module.exports = (env) => {
         ] : [
                 // Plugins that apply in production builds only
                 new webpack.optimize.UglifyJsPlugin(),
-                new ExtractTextPlugin('site.css')
+                extractCSS,
+                // Compress extracted CSS.
+                new OptimizeCSSPlugin({
+                    cssProcessorOptions: {
+                        safe: true
+                    }
+                })
             ])
     }];
 };
