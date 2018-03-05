@@ -10,13 +10,13 @@ import { faMicrosoft, faVuejs, faFontAwesome } from '@fortawesome/fontawesome-fr
 fontawesome.library.add(
   faEnvelope,
   faGraduationCap,
-  faHome, 
+  faHome,
   faList,
-  faSpinner, 
+  faSpinner,
   // Brands
   faFontAwesome,
-  faMicrosoft, 
-  faVuejs,
+  faMicrosoft,
+  faVuejs
 )
 
 export {

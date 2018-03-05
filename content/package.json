@@ -12,6 +12,7 @@
     "build:prod": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "build-vendor:prod": "cross-env NODE_ENV=production webpack --config webpack.config.vendor.js --progress",
     "build-vendor:dev": "cross-env NODE_ENV=development webpack --config webpack.config.vendor.js --progress",
+    "lint": "eslint -c ./.eslintrc.js ClientApp/**/*.js  ClientApp/**/*.vue  ClientApp/**/*.json webpack*.js",
     "install": "npm run build-vendor:dev"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "@fortawesome/vue-fontawesome": "0.0.22",
     "aspnet-webpack": "^2.0.3",
     "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
     "babel-loader": "^6.4.1",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -42,6 +44,7 @@
     "css-loader": "^0.26.4",
     "eslint": "^4.18.2",
     "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-html": "^4.0.2",
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.6.0",
