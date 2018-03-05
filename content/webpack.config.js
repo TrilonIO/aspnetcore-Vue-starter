@@ -3,8 +3,11 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const bundleOutputDir = './wwwroot/dist';
 
-module.exports = (env) => {
-    const isDevBuild = !(env && env.prod);
+module.exports = () => {
+    console.log('Building for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
+
+    const isDevBuild = !(process.env.NODE_ENV && process.env.NODE_ENV === 'production');
+
     return [{
         stats: { modules: false },
         entry: { 'main': './ClientApp/boot-app.js' },

@@ -3,9 +3,12 @@ const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 
-module.exports = (env) => {
+module.exports = () => {
+    console.log('Building for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
+
+    const isDevBuild = !(process.env.NODE_ENV && process.env.NODE_ENV === 'production');
     const extractCSS = new ExtractTextPlugin('vendor.css');
-    const isDevBuild = !(env && env.prod);
+
     return [{
         stats: { modules: false },
         resolve: {
