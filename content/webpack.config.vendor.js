@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = () => {
-    console.log('Building for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
+    console.log('Building vendor files for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
 
     const isDevBuild = !(process.env.NODE_ENV && process.env.NODE_ENV === 'production');
     const extractCSS = new ExtractTextPlugin('vendor.css');

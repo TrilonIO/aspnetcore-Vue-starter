@@ -17,9 +17,8 @@
   </ItemGroup>
   <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">
     <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
-    <Exec Command="npm install" />
-    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js --env.NODE_ENV=production" />
-    <Exec Command="node node_modules/webpack/bin/webpack.js --env.NODE_ENV=production" />
+    <Exec Command="npm install" /> <!-- Will do a development version of the vendors -->
+    <Exec Command="npm run build" />
 
     <!-- Include the newly-built files in the publish output -->
     <ItemGroup>
