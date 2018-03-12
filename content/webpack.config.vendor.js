@@ -1,7 +1,7 @@
 ﻿const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
+const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = (env) => {
     const extractCSS = new ExtractTextPlugin('vendor.css');
@@ -34,9 +34,9 @@ module.exports = (env) => {
                     safe: true
                 }
             }),
-            new webpack.ProvidePlugin({ 
-                $: 'jquery', 
-                jQuery: 'jquery', 
+            new webpack.ProvidePlugin({
+                $: 'jquery',
+                jQuery: 'jquery',
                 Popper: ['popper.js', 'default']
             }), // Maps these identifiers to the jQuery package (because Bootstrap expects it to be a global variable)
             new webpack.DllPlugin({
