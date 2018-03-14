@@ -1,12 +1,14 @@
 const path = require('path')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const bundleOutputDir = './wwwroot/dist'
 
 module.exports = () => {
   console.log('Building for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
 
   const isDevBuild = !(process.env.NODE_ENV && process.env.NODE_ENV === 'production')
+  const extractCSS = new ExtractTextPlugin('site.css')
 
   return [{
     stats: { modules: false },
@@ -53,7 +55,13 @@ module.exports = () => {
     ] : [
       // Plugins that apply in production builds only
       new webpack.optimize.UglifyJsPlugin(),
-      new ExtractTextPlugin('site.css')
+      extractCSS,
+      // Compress extracted CSS.
+      new OptimizeCSSPlugin({
+        cssProcessorOptions: {
+          safe: true
+        }
+      })
     ])
   }]
 }

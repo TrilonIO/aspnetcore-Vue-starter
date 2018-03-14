@@ -1,7 +1,7 @@
 const path = require('path')
 const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
-var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
+const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 
 module.exports = () => {
   console.log('Building vendor files for \x1b[33m%s\x1b[0m', process.env.NODE_ENV)
@@ -41,6 +41,7 @@ module.exports = () => {
         $: 'jquery',
         jQuery: 'jquery',
         Popper: ['popper.js', 'default']
+        /* For modal, you will need to add tether */
       }), // Maps these identifiers to the jQuery package (because Bootstrap expects it to be a global variable)
       new webpack.DllPlugin({
         path: path.join(__dirname, 'wwwroot', 'dist', '[name]-manifest.json'),
