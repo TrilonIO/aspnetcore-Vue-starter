@@ -28,17 +28,17 @@
     import { routes } from '../router/routes'
 
     export default {
-        data() {
-            return {
-                routes,
-                collapsed : true
-            }
-        },
-        methods: {
-            toggleCollapsed: function(event){
-                this.collapsed = !this.collapsed;
-            }
+      data () {
+        return {
+          routes,
+          collapsed: true
         }
+      },
+      methods: {
+        toggleCollapsed: function (event) {
+          this.collapsed = !this.collapsed
+        }
+      }
     }
 </script>
 

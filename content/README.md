@@ -1,9 +1,9 @@
 # Asp.NETCore 2.0 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
 
-This repo contains an aspnetcore + Vue.js 2 starter template (VS2017). The template is based
+This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
 on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
-_Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)_
+_Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)_
  
 ---
 
@@ -11,13 +11,13 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
 
 * [Features](#features)
 * [Prerequisites](#prerequisites)
-* [Installation - Getting Started!](#installation)
-* [Upcoming Features](#upcoming-features)
+* [Installation](#installation)
+* [Getting Started](#getting-started)
 * [Extras](#extras)
 * [Special Thanks](#special-thanks)
 * [License](#license)
 * [Social Media](#follow-me-online)
-* [Vue & ASP.NET Consulting & training](#devhelponline---angular--aspnet---consulting--training--development)
+* [VueJS & ASP.NET Consulting & training](#Training)
 
 # Features
 
@@ -25,44 +25,39 @@ _Looking for aspnetcore & Angular 2.x+ Universal starter? [click here](https://g
   - Web API
 - **VueJS 2**
   - Vuex (State Store)
-- **Webpack 2**
+- **Webpack**
   - HMR (Hot Module Replacement/Reloading)
-- **Bootstrap**
-- ...more details to come...
+- **Bootstrap 4**
 
 # Prerequisites:
- * nodejs > 6
- * VS2017
- * dotnet core 2.0
+ * [.Net Core 2](https://www.microsoft.com/net/download/windows)
+ * [NodeJS](https://nodejs.org/) >= 8.9.4
+ * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
-# Installation / Getting Started:
- * Clone this repo
- * At the repo's root directory run `dotnet restore`
+# Installation:
+ * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
+ 
+# Getting Started:
+ * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+   * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
- * Run the application (`dotnet run` or `npm run dev`)
+
+## Start the application:
+You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
+
+### 1. Using the command line
+Run the application using `dotnet run` or `npm run dev`
+- note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
  
- or
- 
- * Run the application in VSCode or Visual Studio 2017 (Hit `F5`)
- * Browse to [http://localhost:5000](http://localhost:5000)
+### 2. Using the built-in run command
+Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
-# Extras
+## View your application running
+Browse to [http://localhost:5000](http://localhost:5000)
 
-- Get Chrome DevTools for Vue [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+# Recommended plugin for debugging VueJS
 
-
-# Upcoming Features (to-do list)
-
-**[TODO] Install template:**
- * `dotnet new --install Microsoft.AspNetCore.SpaTemplates.Vue2Js`
-
-**[TODO] To use the template:**
- * mkdir + chdir
- * `dotnet new -l`
- * `dotnet new vue2js`
- * `dotnet restore`
- * `npm install`
- * Run the application (`dotnet run` or `npm run dev`)
+- Get Chrome DevTools for VueJS [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 ----
 
@@ -78,10 +73,10 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 ### Also, a million thanks to key Contributors ! 
 
-- [@mika76])(https://github.com/mika76) :sparkles:
+- [@Nordes](https://github.com/Nordes) :sparkles:
+- [@mika76](https://github.com/mika76) :sparkles:
 - [@vip32](https://github.com/vip32) :sparkles:
 - [@anderly](https://github.com/anderly) :sparkles:
-
 
 ----
 
@@ -89,13 +84,15 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
 
-Copyright (c) 2016-2017 [Mark Pieszak](https://github.com/MarkPieszak)
+Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
 
 ### Follow me online:
 
 Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
 
 ----
+
+<a name="Training"/>
 
 # DevHelp.Online - VueJS & ASP.NET - Consulting | Training | Development
 
