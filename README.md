@@ -35,25 +35,19 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
  * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
 # Installation:
- * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
+ * Clone this repository : `$ git clone https://github.com/MarkPieszak/aspnetcore-Vue-starter.git VueWeb`
+ * `$ cd VueWeb/content`
+ * `$ dotnet restore`
+ * `$ npm install`
  
-# Getting Started:
- * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
-   * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
- * Restore Node dependencies by running `npm install`
+# Visual Studio
+Open the `*.sln` file with "Open project" from Visual Studio IDE
 
-## Start the application:
-You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
-
-### 1. Using the command line
-Run the application using `dotnet run` or `npm run dev`
-- note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
- 
 ### 2. Using the built-in run command
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
 ## View your application running
-Browse to [http://localhost:5000](http://localhost:5000)
+When running the app using debug menu or `F5` VS open auto the app in the browser;
 
 # Recommended plugin for debugging VueJS
 
