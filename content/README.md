@@ -1,4 +1,4 @@
-# Asp.NETCore 2.0 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
+# Asp.NETCore 2.1 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
 
 This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
 on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
@@ -21,7 +21,7 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
 
 # Features
 
-- **ASP.NET Core 2.0**
+- **ASP.NET Core 2.1**
   - Web API
 - **VueJS 2**
   - Vuex (State Store)
@@ -30,7 +30,7 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
 - **Bootstrap 4**
 
 # Prerequisites:
- * [.Net Core 2](https://www.microsoft.com/net/download/windows)
+ * [.Net Core 2.1](https://www.microsoft.com/net/download/windows)
  * [NodeJS](https://nodejs.org/) >= 8.9.4
  * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
