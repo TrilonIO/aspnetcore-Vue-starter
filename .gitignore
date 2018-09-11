@@ -1,0 +1,2 @@
+# Make sure nupkg files don't get pushed to git repo
+**/*.nupkg
