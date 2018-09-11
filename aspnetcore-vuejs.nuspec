@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>aspnetcore-vuejs</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>
-      Template for ASP.Net Core 2 WebApi and Vue.js 2 Client app with webpack and hot reloading
+      Template for ASP.NET Core 2 WebApi and Vue.js 2 Client app with webpack and hot reloading
     </description>
     <authors>Mark Pieszak, Mladen Mihajlovic</authors>
     <projectUrl>https://github.com/MarkPieszak/aspnetcore-Vue-starter</projectUrl>
