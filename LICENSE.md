@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2018 Mark Pieszak
+Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
 
 * * *
 
