@@ -89,7 +89,9 @@ Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
 
 ### Follow me online:
 
-Twitter: [![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak) 
+
+Medium: [@MarkPieszak](https://medium.com/@MarkPieszak) 
 
 ----
 
