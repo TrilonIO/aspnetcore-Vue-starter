@@ -1,5 +1,5 @@
 # Stage 1 - Restoring & Compiling
-FROM microsoft/dotnet:2.1-sdk-alpine3.7 as builder
+FROM microsoft/dotnet:2.2-sdk-alpine3.8 as builder
 WORKDIR /source
 RUN apk add --update nodejs nodejs-npm
 COPY *.csproj .
@@ -10,7 +10,7 @@ COPY . .
 RUN dotnet publish -c Release -o /app/
 
 # Stage 2 - Creating Image for compiled app
-FROM microsoft/dotnet:2.1.1-aspnetcore-runtime-alpine3.7 as baseimage
+FROM microsoft/dotnet:2.2-aspnetcore-runtime-alpine3.8 as baseimage
 RUN apk add --update nodejs nodejs-npm
 WORKDIR /app
 COPY --from=builder /app .
