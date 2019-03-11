@@ -17,7 +17,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 * [Special Thanks](#special-thanks)
 * [License](#license)
 * [Social Media](#follow-me-online)
-* [VueJS & ASP.NET Consulting & training](#Training)
+* [Trilon - VueJS & Asp.NET Consulting & Training](#trilon---vue-aspnet-nodejs---consulting--training--development)
 
 # Features
 
