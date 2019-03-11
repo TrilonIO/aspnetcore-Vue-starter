@@ -1,9 +1,9 @@
-# Asp.NETCore 2.1 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
+# Asp.NETCore 2.1 Vue 2 Starter - by [Trilon.io](https://Trilon.io)
 
 This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
 on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
-_Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)_
+_Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
  
 ---
 
@@ -83,26 +83,24 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 # License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/content/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
 
-Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
+Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 
-### Follow me online:
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak) 
-
-Medium: [@MarkPieszak](https://medium.com/@MarkPieszak) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak)
 
 ----
 
-<a name="Training"/>
+# DevHelp.Online - Angular & ASP.NET - Consulting | Training | Development
 
-# DevHelp.Online - VueJS & ASP.NET - Consulting | Training | Development
+Check out **[Trilon.io](https://Trilon.io)** for more info! Twitter [@Trilon_io](http://www.twitter.com/Trilon_io)
 
-Check out **[www.DevHelp.Online](http://DevHelp.Online)** for more info! Twitter [@DevHelpOnline](https://twitter.com/DevHelpOnline)
-
-Contact us at <hello@devhelp.online>, and let's talk about your projects needs.
+Contact us at <hello@trilon.io>, and let's talk about your projects needs.
 
 <p align="center">
-    <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/768119/images/4272479/Screen_Shot_2017-10-27_at_6.58.34_PM.png" alt="DevHelp.Online - Angular ASPNET JavaScript Consulting Development and Training">
+    <img src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
 </p>
+
+## Follow Trilon online:
+
+Twitter: [@Trilon_io](http://twitter.com/Trilon_io)
