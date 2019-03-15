@@ -38,7 +38,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
  * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
  
 # Getting Started:
- * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+ * Create folder from template: `dotnet new vue` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
    * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
 
