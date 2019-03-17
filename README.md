@@ -1,4 +1,11 @@
-# Asp.NETCore 2.1 Vue 2 Starter - by [Trilon.io](https://Trilon.io)
+# ASP.NET Core Vue Starter
+
+### Made with :heart: by [Trilon.io](https://trilon.io)
+<p>
+  <a href="https://trilon.io" target="_blank">
+        <img width="200" height="auto" src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+  </a>
+</p>
 
 This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
 on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
@@ -98,7 +105,9 @@ Check out **[Trilon.io](https://Trilon.io)** for more info! Twitter [@Trilon_io]
 Contact us at <hello@trilon.io>, and let's talk about your projects needs.
 
 <p align="center">
-    <img src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+  <a href="https://trilon.io" target="_blank">
+        <img src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+  </a>
 </p>
 
 ## Follow Trilon online:
