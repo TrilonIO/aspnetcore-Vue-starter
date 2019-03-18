@@ -4,7 +4,7 @@
     <id>aspnetcore-vuejs</id>
     <version>1.0.3</version>
     <description>
-      ASP.NET Core & Vue.JS Application Starter Template - with webpack, Web API and other best-practices baked in.
+      ASP.NET Core and Vue.JS Application Starter Template - with webpack, Web API and other best-practices baked in.
     </description>
     <authors>Mark Pieszak</authors>
     <projectUrl>https://github.com/TrilonIO/aspnetcore-Vue-starter</projectUrl>
