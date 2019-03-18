@@ -39,7 +39,7 @@
       </ul>
 
       <strong>Let's get in touch and see how Trilon can help you! </strong>
-      <p><a href="mailto:hello@trilon.io"><icon icon="envelope"/> hello@trilon.io</a></p>
+      <p><a href="mailto:hello@trilon.io?subject=Trilon%20Consulting"><icon icon="envelope"/> hello@trilon.io</a></p>
 
       <h3 class="mt-5">Find us Online</h3>
       <strong>Website: <a href="https://trilon.io" target="_blank">https://trilon.io</a></strong>
