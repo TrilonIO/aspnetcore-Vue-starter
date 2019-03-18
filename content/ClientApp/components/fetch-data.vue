@@ -6,12 +6,12 @@
 
         <div v-if="!forecasts" class="text-center">
             <p><em>Loading...</em></p>
-            <h1><icon icon="spinner" pulse/></h1>            
+            <h1><icon icon="spinner" pulse/></h1>
         </div>
 
         <template v-if="forecasts">
             <table class="table">
-                <thead  class="bg-dark text-white">
+                <thead class="dark-bg text-white">
                     <tr>
                         <th>Date</th>
                         <th>Temp. (C)</th>

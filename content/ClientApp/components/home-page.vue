@@ -1,40 +1,54 @@
 <template>
     <div>
-        <h1>Hello, world!</h1>
-        <p>Welcome to your new single-page application, built with: </p>
-        <ul>
-            <li><a href="https://get.asp.net/"><icon :icon="['fab', 'microsoft']"/> ASP.NET Core</a> and <a href="https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx">C#</a>                    for cross-platform server-side code</li>
-            <li><a href="https://vuejs.org/"><icon :icon="['fab', 'vuejs']"/> Vue.js</a> for client-side code</li>
-            <li><a href="https://webpack.js.org/">Webpack</a> for building and bundling client-side resources</li>
-            <li><a href="http://getbootstrap.com/">Bootstrap</a> for layout and styling</li>
-            <li><a href="http://jquery.com/">JQuery</a> for Bootstrap components</li>
-            <li><a href="https://fontawesome.com"><icon :icon="['fab', 'font-awesome']"/> Font Awesome</a> (Free) for the icons</li>
-            <li><a href="api/SampleData/WeatherForecasts">API sample data</a> from the dotnet controller</li>
-        </ul>
-        <p>To help you get started, we've also set up:</p>
-        <ul>
-            <li><strong>Client-side navigation</strong>. For example, click <em>Counter</em> then <em>Back</em> to return
-                here.</li>
-            <li><strong>Webpack dev middleware</strong>. In development mode, there's no need to run the <code>webpack</code>                    build tool. Your client-side resources are dynamically built on demand. Updates are available as soon
-                as you modify any file.</li>
-            <li><strong>Hot module replacement</strong>. In development mode, you don't even need to reload the page after
-                making most changes. Within seconds of saving changes to files, your Vue.js app will be rebuilt and
-                a new instance injected is into the page.</li>
-            <li><strong>Code splitting and lazy loading</strong>. Vue.js components may optionally be bundled individually and
-                loaded on demand. For example, the code and template for 'Counter' is not loaded until you navigate to
-                it..</li>
-            <li><strong>Efficient production builds</strong>. In production mode, development-time features are disabled,
-                and the <code>webpack</code> build tool produces minified static CSS and JavaScript files.</li>
-        </ul>
+      <h1 class="mt-4">
+        ASP.NET Core & Vue Starter Template
+      </h1>
 
-        <br><br>
+      <h2 class="mt-5">
+        Made with <icon icon="heart" class="fuscia" /> by
+        <a href="https://trilon.io" target="_blank" class="fuscia">Trilon.io</a>
+      </h2>
 
-        <h2>This Template brought to you by <a href="http://DevHelp.Online">DevHelp.Online</a></h2>
-        <strong>Consulting | Development | Training | Workshops</strong><br>
-        <p>Get your Team or Application up to speed by working with some of the leading industry experts in JavaScript & ASP.NET!</p>
+      <a href="https://trilon.io" target="_blank">
+        <img class="trilon-logo" src="https://trilon.io/meta/og-image.png" />
+      </a>
 
-        <strong>Contact us today: </strong>
-        <p><a href="mailto:hello@devhelp.online"><icon icon="envelope"/> Hello@DevHelp.Online</a></p>
+      <br><br>
+
+      <h3>
+        <a href="https://trilon.io" target="_blank" class="fuscia">
+          Enterprise Consulting | Development | Training | Workshops
+        </a>
+      </h3>
+      <strong>
+        Get your Team & Application up to speed by working with some of the leading industry
+        experts in JavaScript & ASP.NET!
+      </strong>
+      <br><br>
+      <ul>
+        <li>Official <a href="https://www.nestjs.com" target="_blank">NestJS</a> Consulting</li>
+        <li>Architectural Review</li>
+        <li>JavaScript Application Consulting
+          <ul>
+            <li>Vue | React | Angular</li>
+            <li>Best-practices</li>
+          </ul>
+        </li>
+        <li>Team Augmentation & Support</li>
+        <li>Much more!</li>
+      </ul>
+
+      <strong>Let's get in touch and see how Trilon can help you! </strong>
+      <p><a href="mailto:hello@trilon.io"><icon icon="envelope"/> hello@trilon.io</a></p>
+
+      <h3 class="mt-5">Find us Online</h3>
+      <strong>Website: <a href="https://trilon.io" target="_blank">https://trilon.io</a></strong>
+      <br>
+      <strong>Twitter: <a href="https://twitter.com/trilon_io" target="_blank">@Trilon_IO</a></strong>
+      <br>
+      <strong>Github: <a href="https://github.com/trilonio" target="_blank">@Trilon_IO</a></strong>
+
+      <br><br><br>
     </div>
 </template>
 
@@ -47,4 +61,5 @@ export default {
 </script>
 
 <style>
+
 </style>

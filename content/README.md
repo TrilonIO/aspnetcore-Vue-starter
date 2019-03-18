@@ -1,10 +1,17 @@
-# Asp.NETCore 2.1 Vue 2 Starter - by [DevHelp.Online](http://www.DevHelp.Online)
+# ASP.NET Core Vue Starter
+
+### Made with :heart: by [Trilon.io](https://trilon.io)
+<p>
+  <a href="https://trilon.io" target="_blank">
+        <img width="200" height="auto" src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+  </a>
+</p>
 
 This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
 on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
-_Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https://github.com/MarkPieszak/aspnetcore-angular2-universal)_
- 
+_Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
+
 ---
 
 # Table of Contents
@@ -17,7 +24,7 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
 * [Special Thanks](#special-thanks)
 * [License](#license)
 * [Social Media](#follow-me-online)
-* [VueJS & ASP.NET Consulting & training](#Training)
+* [Trilon - VueJS & Asp.NET Consulting & Training](#trilon---vue-aspnet-nodejs---consulting--training--development)
 
 # Features
 
@@ -36,7 +43,7 @@ _Looking for ASP.NET Core & Angular 2.x+ Universal starter? [click here](https:/
 
 # Installation:
  * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
- 
+
 # Getting Started:
  * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
    * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
@@ -48,7 +55,7 @@ You have two choices when it come at how your preffer to run it. You can either 
 ### 1. Using the command line
 Run the application using `dotnet run` or `npm run dev`
 - note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
- 
+
 ### 2. Using the built-in run command
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
@@ -64,6 +71,7 @@ Browse to [http://localhost:5000](http://localhost:5000)
 # Found a Bug? Want to Contribute?
 
 Nothing's ever perfect, but please let me know by creating an issue (make sure there isn't an existing one about it already), and we'll try and work out a fix for it! If you have any good ideas, or want to contribute, feel free to either make an Issue with the Proposal, or just make a PR from your Fork.
+Please note that this project is released with a [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ----
 
@@ -71,7 +79,7 @@ Nothing's ever perfect, but please let me know by creating an issue (make sure t
 
 Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his amazing work on [JavaScriptServices](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) and integrating the world of Node with ASP.NET Core.
 
-### Also, a million thanks to key Contributors ! 
+### Also, a million thanks to key Contributors !
 
 - [@Nordes](https://github.com/Nordes) :sparkles:
 - [@mika76](https://github.com/mika76) :sparkles:
@@ -82,24 +90,26 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 
 # License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
 
-Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
+Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 
-### Follow me online:
-
-Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
+[![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak)
 
 ----
 
-<a name="Training"/>
+# Trilon - Vue, Asp.NET, NodeJS - Consulting | Training | Development
 
-# DevHelp.Online - VueJS & ASP.NET - Consulting | Training | Development
+Check out **[Trilon.io](https://Trilon.io)** for more info! Twitter [@Trilon_io](http://www.twitter.com/Trilon_io)
 
-Check out **[www.DevHelp.Online](http://DevHelp.Online)** for more info! Twitter [@DevHelpOnline](https://twitter.com/DevHelpOnline)
-
-Contact us at <hello@devhelp.online>, and let's talk about your projects needs.
+Contact us at <hello@trilon.io>, and let's talk about your projects needs.
 
 <p align="center">
-    <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/768119/images/4272479/Screen_Shot_2017-10-27_at_6.58.34_PM.png" alt="DevHelp.Online - Angular ASPNET JavaScript Consulting Development and Training">
+  <a href="https://trilon.io" target="_blank">
+        <img src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+  </a>
 </p>
+
+## Follow Trilon online:
+
+Twitter: [@Trilon_io](http://twitter.com/Trilon_io)

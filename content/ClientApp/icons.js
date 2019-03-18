@@ -7,8 +7,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 // unnecessary things.
 library.add(
   require('@fortawesome/free-solid-svg-icons').faEnvelope,
+  require('@fortawesome/free-solid-svg-icons').faHeart,
   require('@fortawesome/free-solid-svg-icons').faGraduationCap,
   require('@fortawesome/free-solid-svg-icons').faHome,
+  require('@fortawesome/free-solid-svg-icons').faInfo,
   require('@fortawesome/free-solid-svg-icons').faList,
   require('@fortawesome/free-solid-svg-icons').faSpinner,
   // Brands
