@@ -1,4 +1,4 @@
-# ASP.NET Core Vue Starter
+# ASP.NET Core & Vue.js Starter
 
 ### Made with :heart: by [Trilon.io](https://trilon.io)
 <p>
@@ -6,9 +6,6 @@
         <img width="200" height="auto" src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
   </a>
 </p>
-
-This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
-on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
 _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
  
@@ -23,7 +20,6 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 * [Extras](#extras)
 * [Special Thanks](#special-thanks)
 * [License](#license)
-* [Social Media](#follow-me-online)
 * [Trilon - VueJS & Asp.NET Consulting & Training](#trilon---vue-aspnet-nodejs---consulting--training--development)
 
 # Features

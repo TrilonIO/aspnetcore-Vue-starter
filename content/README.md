@@ -1,4 +1,4 @@
-# ASP.NET Core Vue Starter
+# ASP.NET Core & Vue.js Starter
 
 ### Made with :heart: by [Trilon.io](https://trilon.io)
 <p>
@@ -6,9 +6,6 @@
         <img width="200" height="auto" src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
   </a>
 </p>
-
-This repo contains an ASP.NET Core + Vue.js 2 starter template (VS2017 or command line). The template is based
-on the [original starter templates](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) (Angular, Knockout, React, Aurelia), which can be found [here](https://github.com/aspnet/JavaScriptServices/tree/dev/templates)
 
 _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
 
@@ -21,9 +18,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 * [Installation](#installation)
 * [Getting Started](#getting-started)
 * [Extras](#extras)
-* [Special Thanks](#special-thanks)
 * [License](#license)
-* [Social Media](#follow-me-online)
 * [Trilon - VueJS & Asp.NET Consulting & Training](#trilon---vue-aspnet-nodejs---consulting--training--development)
 
 # Features
@@ -72,19 +67,6 @@ Browse to [http://localhost:5000](http://localhost:5000)
 
 Nothing's ever perfect, but please let me know by creating an issue (make sure there isn't an existing one about it already), and we'll try and work out a fix for it! If you have any good ideas, or want to contribute, feel free to either make an Issue with the Proposal, or just make a PR from your Fork.
 Please note that this project is released with a [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
-
-----
-
-### Special Thanks
-
-Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his amazing work on [JavaScriptServices](https://blogs.msdn.microsoft.com/webdev/2017/02/14/building-single-page-applications-on-asp-net-core-with-javascriptservices/) and integrating the world of Node with ASP.NET Core.
-
-### Also, a million thanks to key Contributors !
-
-- [@Nordes](https://github.com/Nordes) :sparkles:
-- [@mika76](https://github.com/mika76) :sparkles:
-- [@vip32](https://github.com/vip32) :sparkles:
-- [@anderly](https://github.com/anderly) :sparkles:
 
 ----
 

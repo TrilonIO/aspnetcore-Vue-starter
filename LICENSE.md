@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2016-2018 [Mark Pieszak](https://github.com/MarkPieszak)
+Copyright (c) 2016-2019 [Trilon.io](https://trilon.io) & [Mark Pieszak](https://github.com/MarkPieszak)
 
 * * *
 
