@@ -38,7 +38,18 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
  * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
 # Installation:
- * Install the template from nuget: `dotnet new -i aspnetcore-vuejs`
+
+Download the template right from **Nuget**. 
+
+```ts
+dotnet new -i aspnetcore-vuejs
+```
+
+- or -
+
+Clone the repo itself:
+
+`git clone https://github.com/TrilonIO/aspnetcore-Vue-starter.git`
  
 # Getting Started:
  * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
