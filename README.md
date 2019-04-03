@@ -52,8 +52,8 @@ Clone the repo itself:
 `git clone https://github.com/TrilonIO/aspnetcore-Vue-starter.git`
  
 # Getting Started:
- * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
-   * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
+ * Create folder from template: `dotnet new -i aspnetcore-vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+   * This will automatically run `dotnet restore` unless you install with `dotnet new -i aspnetcore-vuejs --skipRestore`
  * Restore Node dependencies by running `npm install`
 
 ## Start the application:
