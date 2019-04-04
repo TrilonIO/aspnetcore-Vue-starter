@@ -41,22 +41,41 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 
 # Installation:
 
-Download the template right from **Nuget**. 
+### Nuget | Dotnet Templates
+
+Find the template through NuGet package manager inside Visual Studio or [here](https://www.nuget.org/packages/aspnetcore-vuejs)
+
+> Or download it via dotnet templates
 
 ```ts
+// Make a directory where you want the project
+mkdir my-vue-starter && cd my-vue-starter
+
+// Download the dotnet template
 dotnet new -i aspnetcore-vuejs
+
+// Run and install the template
+dotnet new vuejs
+
+// Make sure you install the dependencies
+npm install
 ```
 
-# Getting Started:
- * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+Now you can open the project via Visual Studio or VSCode, press F5 to run the application!
+
+Note: 
+
+* This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
+* ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
    * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
- * Restore Node dependencies by running `npm install`
 
-- or -
+### -OR- Clone this Repo itself
 
-Clone the repo itself:
-
-`git clone https://github.com/TrilonIO/aspnetcore-Vue-starter.git`
+ * Clone this repository : `$ git clone https://github.com/MarkPieszak/aspnetcore-Vue-starter.git VueWeb`
+ * `$ cd VueWeb/content`
+ * `$ dotnet restore && npm install`
+ * (If using VSCode) `$ code .` 
+ * (If using Visual Studio) Open the `*.sln` file with "Open project" from Visual Studio IDE
 
 
 ## Start the application:
@@ -70,7 +89,7 @@ Run the application using `dotnet run` or `npm run dev`
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
 ## View your application running
-Browse to [http://localhost:5000](http://localhost:5000)
+When running the app using debug menu or `F5` VS open auto the app in the browser;
 
 # Recommended plugin for debugging VueJS
 
