@@ -1,5 +1,7 @@
 # ASP.NET Core & Vue.js Starter
 
+[![NuGet](https://img.shields.io/nuget/v/aspdotnet-vuejs.svg)](https://www.nuget.org/packages/aspdotnet-vuejs/)
+
 ### Made with :heart: by [Trilon.io](https://trilon.io)
 <p>
   <a href="https://trilon.io" target="_blank">
