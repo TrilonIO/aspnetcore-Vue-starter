@@ -25,7 +25,8 @@ namespace Vue2Spa.Controllers
             {
                 return BadRequest("You cannot have the 'to' parameter higher than 'from' parameter.");
             }
-            else if (from < 0)
+
+            if (from < 0)
             {
                 return BadRequest("You cannot go in the negative with the 'from' parameter");
             }

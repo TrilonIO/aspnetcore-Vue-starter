@@ -1,0 +1,35 @@
+###############################################################################
+# Auto detect text files and perform LF normalization
+###############################################################################
+* text=auto
+
+###############################################################################
+# Force text and use native line endings for configuration and plain text
+# files, for easier editing on any platform.
+###############################################################################
+*.cs     text
+*.cshtml text
+*.js     text
+*.vue    text
+*.json   text
+*.css    text
+*.md     text
+*.config text
+
+###############################################################################
+# Set default behavior for command prompt diff.
+###############################################################################
+*.cs        diff=csharp
+
+###############################################################################
+# Set the merge driver for project and solution files
+#
+# Merging from the command prompt will add diff markers to the files if there
+# are conflicts (Merging from VS is not affected by the settings below, in VS
+# the diff markers are never inserted). Diff markers may cause the following 
+# file extensions to fail to load in VS. An alternative would be to treat
+# these files as binary and thus will always conflict and require user
+# intervention with every merge. To do so, just uncomment the entries below
+###############################################################################
+*.sln       merge=binary
+*.csproj    merge=binary

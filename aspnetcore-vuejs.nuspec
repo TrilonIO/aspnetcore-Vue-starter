@@ -2,13 +2,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>aspnetcore-vuejs</id>
-    <version>1.0.1</version>
+    <version>1.0.5</version>
     <description>
-      Template for ASP.Net Core 2 WebApi and Vue.js 2 Client app with webpack and hot reloading
+      ASP.NET Core and Vue.JS Application Starter Template - with webpack, Web API and other best-practices baked in. Brought to you by Trilon.io
     </description>
-    <authors>Mark Pieszak, Mladen Mihajlovic</authors>
-    <projectUrl>https://github.com/MarkPieszak/aspnetcore-Vue-starter</projectUrl>
-    <licenseUrl>https://github.com/MarkPieszak/aspnetcore-Vue-starter/blob/master/LICENSE.md</licenseUrl>
+    <authors>Mark Pieszak</authors>
+    <owners>Mark Pieszak</owners>
+    <projectUrl>https://github.com/TrilonIO/aspnetcore-Vue-starter</projectUrl>
+    <licenseUrl>https://github.com/TrilonIO/aspnetcore-Vue-starter/blob/master/LICENSE.md</licenseUrl>
+    <iconUrl>https://trilon.io/android-chrome-192x192.png</iconUrl>
+    <tags>vue vuejs vue3 aspnet aspnetcore core dotnet webapi vuex</tags>
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>

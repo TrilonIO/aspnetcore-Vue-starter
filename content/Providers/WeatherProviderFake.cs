@@ -7,8 +7,7 @@ namespace Vue2Spa.Providers
 {
     public class WeatherProviderFake : IWeatherProvider
     {
-        private string[] Summaries = new[]
-        {
+        private readonly string[] summaries = {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
@@ -26,7 +25,7 @@ namespace Vue2Spa.Providers
             {
                 DateFormatted = DateTime.Now.AddDays(index).ToString("d"),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Summary = summaries[rng.Next(summaries.Length)]
             }).ToList();
         }
 
