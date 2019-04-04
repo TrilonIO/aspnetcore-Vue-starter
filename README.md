@@ -1,6 +1,6 @@
-# ASP.NET Core & Vue.js Starter
-
 [![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg)](https://www.nuget.org/packages/aspnetcore-vuejs/)
+
+# ASP.NET Core & Vue.js Starter
 
 ### Made with :heart: by [Trilon.io](https://trilon.io)
 <p>
