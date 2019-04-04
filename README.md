@@ -45,16 +45,17 @@ Download the template right from **Nuget**.
 dotnet new -i aspnetcore-vuejs
 ```
 
+# Getting Started:
+ * Create folder from template: `dotnet new vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+   * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
+ * Restore Node dependencies by running `npm install`
+
 - or -
 
 Clone the repo itself:
 
 `git clone https://github.com/TrilonIO/aspnetcore-Vue-starter.git`
- 
-# Getting Started:
- * Create folder from template: `dotnet new -i aspnetcore-vuejs` ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
-   * This will automatically run `dotnet restore` unless you install with `dotnet new -i aspnetcore-vuejs --skipRestore`
- * Restore Node dependencies by running `npm install`
+
 
 ## Start the application:
 You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
@@ -113,7 +114,7 @@ Contact us at <hello@trilon.io>, and let's talk about your projects needs.
 
 <p align="center">
   <a href="https://trilon.io" target="_blank">
-        <img src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+    <img src="https://trilon.io/meta/og-image.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
   </a>
 </p>
 
