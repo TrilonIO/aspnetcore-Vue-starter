@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "author": "Mark Pieszak, Mladen Mihajlovic",
+    "author": "Mark Pieszak",
     "classifications": [ "Web", "MVC", "SPA" ],
     "groupIdentity": "aspnetcore-vuejs",
     "identity": "aspnetcore-vuejs.1.0",
