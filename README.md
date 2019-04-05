@@ -2,12 +2,13 @@
 
 # ASP.NET Core & Vue.js Starter
 
-### Made with :heart: by [Trilon.io](https://trilon.io)
 <p>
   <a href="https://trilon.io" target="_blank">
         <img width="200" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
   </a>
 </p>
+
+### Made with :heart: by [Trilon.io](https://trilon.io)
 
 _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
  
