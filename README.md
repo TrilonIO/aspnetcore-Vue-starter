@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://trilon.io" target="_blank">
-        <img width="200" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+        <img width="400" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
   </a>
 </p>
 
