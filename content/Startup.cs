@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Vue2Spa.Providers;
 
 namespace Vue2Spa
 {
@@ -24,7 +25,7 @@ namespace Vue2Spa
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             // Simple example with dependency injection for a data provider.
-            services.AddSingleton<Providers.IWeatherProvider, Providers.WeatherProviderFake>();
+            services.AddSingleton<IWeatherProvider, WeatherProviderFake>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
