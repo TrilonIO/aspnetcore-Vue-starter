@@ -23,7 +23,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 
 # Features
 
-- **ASP.NET Core 2.1**
+- **ASP.NET Core 2.2**
   - Web API
 - **VueJS 2**
   - Vuex (State Store)
@@ -32,7 +32,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 - **Bootstrap 4**
 
 # Prerequisites:
- * [.Net Core 2.1](https://www.microsoft.com/net/download/windows)
+ * [.Net Core 2.2](https://www.microsoft.com/net/download/windows)
  * [NodeJS](https://nodejs.org/) >= 8.9.4
  * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 

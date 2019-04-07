@@ -7,11 +7,11 @@ namespace Vue2Spa.Controllers
     [Route("api/[controller]")]
     public class WeatherController : Controller
     {
-        private readonly IWeatherProvider weatherProvider;
+        private readonly IWeatherProvider _weatherProvider;
 
         public WeatherController(IWeatherProvider weatherProvider)
         {
-            this.weatherProvider = weatherProvider;
+            _weatherProvider = weatherProvider;
         }
 
         [HttpGet("[action]")]
@@ -31,7 +31,7 @@ namespace Vue2Spa.Controllers
                 return BadRequest("You cannot go in the negative with the 'from' parameter");
             }
 
-            var allForecasts = weatherProvider.GetForecasts();
+            var allForecasts = _weatherProvider.GetForecasts();
             var result = new
             {
                 Total = allForecasts.Count,
