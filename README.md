@@ -36,7 +36,7 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 
 # Features
 
-- **ASP.NET Core 2.1**
+- **ASP.NET Core 2.2**
   - Web API
 - **VueJS 2**
   - Vuex (State Store)
@@ -45,8 +45,8 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 - **Bootstrap 4**
 
 # Prerequisites:
- * [.Net Core 2.1](https://www.microsoft.com/net/download/windows)
- * [NodeJS](https://nodejs.org/) >= 8.9.4
+ * [.Net Core 2.2](https://www.microsoft.com/net/download/windows)
+ * [NodeJS](https://nodejs.org/) >= 10.x
  * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
 # Installation:
