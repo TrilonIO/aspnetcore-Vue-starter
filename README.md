@@ -1,7 +1,8 @@
 # ASP.NET Core & Vue.js Starter
 
-<a href="https://www.nuget.org/packages/aspnetcore-vuejs/" target="_blank"><img alt="Nuget" src="https://img.shields.io/nuget/v/aspnetcore-vuejs.svg?style=for-the-badge&color=b31ae7"></a>
-<a href="https://www.nuget.org/packages/aspnetcore-vuejs/" target="_blank"><img alt="Nuget" src="https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge&color=e51384"></a>
+[![Nuget](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg?style=for-the-badge&color=5b1096)](https://www.nuget.org/packages/aspnetcore-vuejs/)
+[![Nuget Downloads](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge&color=b31ae7)](https://www.nuget.org/packages/aspnetcore-vuejs/)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
 
 ---
 
@@ -128,7 +129,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 
 # License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?for-the-badge&color=e51384)](/LICENSE) 
 
 Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 
