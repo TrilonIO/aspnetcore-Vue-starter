@@ -1,20 +1,19 @@
 # ASP.NET Core & Vue.js Starter
 
-### Made with :heart: by [Trilon.io](https://trilon.io)
+[![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg)](https://www.nuget.org/packages/aspnetcore-vuejs/)
 
-<p>
+---
+
+<p align="center">
   <a href="https://trilon.io" target="_blank">
-        <img width="400" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
+        <img width="500" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
   </a>
 </p>
 
 
+<h3 align="center"> Made with :heart: by <a href="https://trilon.io">Trilon.io</a></h3>
 
-_Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
- 
 ---
-
-[![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg)](https://www.nuget.org/packages/aspnetcore-vuejs/)
 
 
 # Table of Contents
@@ -118,6 +117,10 @@ Many thanks go out to Steve Sanderson (@SteveSandersonMS) from Microsoft and his
 - [@mika76](https://github.com/mika76) :sparkles:
 - [@vip32](https://github.com/vip32) :sparkles:
 - [@anderly](https://github.com/anderly) :sparkles:
+
+---
+
+_Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
 
 ----
 
