@@ -1,7 +1,7 @@
 # ASP.NET Core & Vue.js Starter
 
 [![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg?style=for-the-badge)](https://www.nuget.org/packages/aspnetcore-vuejs/)
-[![Nuget](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge)]((https://www.nuget.org/packages/aspnetcore-vuejs/))
+[![NuGet](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge)](https://www.nuget.org/packages/aspnetcore-vuejs/)
 
 ---
 
