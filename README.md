@@ -1,5 +1,3 @@
-[![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg)](https://www.nuget.org/packages/aspnetcore-vuejs/)
-
 # ASP.NET Core & Vue.js Starter
 
 ### Made with :heart: by [Trilon.io](https://trilon.io)
@@ -15,6 +13,9 @@
 _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
  
 ---
+
+[![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg)](https://www.nuget.org/packages/aspnetcore-vuejs/)
+
 
 # Table of Contents
 
