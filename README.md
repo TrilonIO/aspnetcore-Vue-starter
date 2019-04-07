@@ -28,9 +28,7 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 * [Features](#features)
 * [Prerequisites](#prerequisites)
 * [Installation](#installation)
-* [Getting Started](#getting-started)
 * [Extras](#recommended-plugin-for-debugging-vuejs)
-* [Special Thanks](#special-thanks)
 * [License](#license)
 * [Trilon - VueJS & Asp.NET Consulting & Training](#trilon---vue-aspnet-nodejs---consulting--training--development)
 
