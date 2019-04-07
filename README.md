@@ -1,9 +1,11 @@
 # ASP.NET Core & Vue.js Starter
 
 [![NuGet](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg?style=for-the-badge)](https://www.nuget.org/packages/aspnetcore-vuejs/)
-![Nuget](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge)
+[![Nuget](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge)]((https://www.nuget.org/packages/aspnetcore-vuejs/))
+
 ---
 
+<br>
 <p align="center">
   <a href="https://trilon.io" target="_blank">
         <img width="500" height="auto" src="https://trilon.io/trilon-logo-clear.png" alt="Trilon.io - Angular Universal, NestJS, JavaScript Application Consulting Development and Training">
