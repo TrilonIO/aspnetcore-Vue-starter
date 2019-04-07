@@ -1,13 +1,13 @@
 {
   "name": "aspnetcore-vuejs",
-  "description": "ASP.NET Core & VueJS Starter project",
+  "description": "ASP.NET Core & VueJS Starter project - Brought to you by Trilon.io",
   "author": {
     "name": "Mark Pieszak | Trilon Consulting",
     "email": "hello@trilon.io",
     "url": "https://trilon.io"
   },
   "repository": {
-    "url": "https://github.com/MarkPieszak/aspnetcore-Vue-starter"
+    "url": "https://github.com/TrilonIO/aspnetcore-Vue-starter"
   },
   "license": "MIT",
   "scripts": {
