@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>aspnetcore-vuejs</id>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <description>
 Starter Template for ASP.NET Core and Vue.JS (Vue)
       
