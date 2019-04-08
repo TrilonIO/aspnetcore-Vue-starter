@@ -99,11 +99,19 @@ Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 ## View your application running
 When running the app using debug menu or `F5` VS open auto the app in the browser;
 
+----
+
+# Demo of Application Running
+
+![](./content/repo-example.png)
+
+---
+
 # Recommended plugin for debugging VueJS
 
 - Get Chrome DevTools for VueJS [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
-----
+---
 
 # Found a Bug? Want to Contribute?
 

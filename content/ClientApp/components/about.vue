@@ -30,14 +30,20 @@
               and the <code>webpack</code> build tool produces minified static CSS and JavaScript files.</li>
       </ul>
 
-      <h3 class="mt-5">
-        Made with <icon icon="heart" class="fuscia" /> by
-        <a href="https://trilon.io" target="_blank" class="fuscia">Trilon.io</a>
-      </h3>
+      <br><br>
 
-      <a href="https://trilon.io" target="_blank">
-        <img class="trilon-mini" src="https://trilon.io/meta/og-image.png" />
-      </a>
+      <div class="text-center">
+        <h4 class="mt-5">
+          Made with <icon icon="heart" class="fuscia" /> by
+          <a href="https://trilon.io" target="_blank" class="fuscia">Trilon.io</a>
+        </h4>
+
+        <br>
+
+        <a href="https://trilon.io" target="_blank">
+          <img class="trilon-mini" src="https://trilon.io/trilon-logo-clear.png" />
+        </a>
+      </div>
 
     </div>
 </template>

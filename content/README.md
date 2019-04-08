@@ -1,12 +1,12 @@
 # ASP.NET Core & Vue.js Starter
 
-Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), Web API, Vuex state manangement and other best-practices baked in! 
+Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), Web API, Vuex state manangement and other best-practices baked in!
 
 > Written in ES6, TypeScript version coming soon!
 
 [![Nuget](https://img.shields.io/nuget/v/aspnetcore-vuejs.svg?style=for-the-badge&color=5b1096)](https://www.nuget.org/packages/aspnetcore-vuejs/)
 [![Nuget Downloads](https://img.shields.io/nuget/dt/aspnetcore-vuejs.svg?label=Nuget%20Downloads&style=for-the-badge&color=b31ae7)](https://www.nuget.org/packages/aspnetcore-vuejs/)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE)
 
 ---
 
@@ -56,7 +56,7 @@ npm install
 
 Now you can open the project via Visual Studio or VSCode, press F5 to run the application!
 
-Note: 
+Note:
 
 * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
 * ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
@@ -67,7 +67,7 @@ Note:
  * Clone this repository : `$ git clone https://github.com/MarkPieszak/aspnetcore-Vue-starter.git VueWeb`
  * `$ cd VueWeb/content`
  * `$ dotnet restore && npm install`
- * (If using VSCode) `$ code .` 
+ * (If using VSCode) `$ code .`
  * (If using Visual Studio) Open the `*.sln` file with "Open project" from Visual Studio IDE
 
 
@@ -77,18 +77,26 @@ You have two choices when it come at how your preffer to run it. You can either 
 ### 1. Using the command line
 Run the application using `dotnet run` or `npm run dev`
 - note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
- 
+
 ### 2. Using the built-in run command
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
 ## View your application running
 When running the app using debug menu or `F5` VS open auto the app in the browser;
 
+----
+
+# Demo of Application Running
+
+![](./repo-example.png)
+
+---
+
 # Recommended plugin for debugging VueJS
 
 - Get Chrome DevTools for VueJS [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
-----
+---
 
 # Found a Bug? Want to Contribute?
 
@@ -103,7 +111,7 @@ _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https:/
 
 # License
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE) 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&color=e51384)](/LICENSE)
 
 Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 
@@ -113,7 +121,7 @@ Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 
 # Trilon - Vue, Asp.NET, NodeJS - Consulting | Training | Development
 
-Check out **[Trilon.io](https://Trilon.io)** for more info! 
+Check out **[Trilon.io](https://Trilon.io)** for more info!
 
 Contact us at **hello@trilon.io**, and let's talk about your projects needs.
 
