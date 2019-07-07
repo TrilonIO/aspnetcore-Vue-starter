@@ -90,8 +90,7 @@ Note:
 You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
 
 ### 1. Using the command line
-Run the application using `dotnet run` or `npm run dev`
-- note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
+Run the application using `npm run dev`.
  
 ### 2. Using the built-in run command
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
